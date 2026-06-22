@@ -8,7 +8,7 @@ int main(){
     case 'A':
         cout << "Excellent" << endl;
     case 'B':
-        cout << "" << endl;
+        cout << "Good" << endl;
     case 'C':
         cout << "Excellent" << endl;
         
