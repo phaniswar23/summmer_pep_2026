@@ -3,6 +3,6 @@ using namespace std;
 
 int main(){
     int age;
-    cout << age;
+    cout << age << endl;;
     return 0;
 }
