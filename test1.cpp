@@ -7,7 +7,7 @@ int main(){
     {
     case 'A':
         cout << "Excellent" << endl;
-        break;
+        
     
     default:
         break;
