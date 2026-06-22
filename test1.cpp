@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
-    char grade = 'A'
+    char grade = 'A';
+    
     return 0;
 }
