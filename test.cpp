@@ -3,7 +3,8 @@ using namespace std;
 
 int main(){
     int x = 9;
-    int y = 
+    int y = 0;
+    
    
     return 0;
 }
