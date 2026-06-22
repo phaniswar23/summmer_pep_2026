@@ -7,6 +7,10 @@ int main(){
     {
     case 'A':
         cout << "Excellent" << endl;
+    case 'A':
+        cout << "Excellent" << endl;
+    case 'A':
+        cout << "Excellent" << endl;
         
     
     default:
