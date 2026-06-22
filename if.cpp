@@ -6,7 +6,7 @@ int main(){
     int leaves = 5;
     if(marks >= 50)
     {
-        
+        cout <<
     }
     return 0;
 }
