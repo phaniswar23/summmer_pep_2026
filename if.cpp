@@ -8,7 +8,7 @@ int main(){
     {
         cout << "1" << endl;
     }
-    if(leave < 10)
+    if(leaves < 10)
     {
         cout << "2" << endl;
     }
