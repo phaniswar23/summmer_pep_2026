@@ -5,7 +5,7 @@ int main(){
     char grade = 'A';
     switch (grade)
     {
-    case '':
+    case 'A':
         /* code */
         break;
     
