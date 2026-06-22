@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int x = 9;
     int y = 0;
-    int res = ( x < y) 
+    int res = ( x < y) ? 
    
     return 0;
 }
