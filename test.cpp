@@ -2,9 +2,8 @@
 using namespace std;
 
 int main(){
-    int age;
-    cout << age << endl;
-    cout << "age" << endl;
+    int x = 9;
+    int y = 
    
     return 0;
 }
