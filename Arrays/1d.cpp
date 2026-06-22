@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    cout << "Array" << endl;
+    cout << "Array are " << endl;
     return 0;
 }
