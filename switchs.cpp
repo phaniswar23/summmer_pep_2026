@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+    // test
     char grade = 'A';
     switch (grade)
     {
