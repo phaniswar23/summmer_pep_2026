@@ -5,7 +5,7 @@ int main(){
     char grade = 'A';
     switch (grade)
     {
-    case constant expression:
+    case '':
         /* code */
         break;
     
