@@ -3,6 +3,6 @@ using namespace std;
 
 int main(){
     int marks = 50;
-    if
+    if(marks > 20 )
     return 0;
 }
