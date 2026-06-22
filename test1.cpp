@@ -6,7 +6,7 @@ int main(){
     switch (grade)
     {
     case 'A':
-        /* code */
+        cout << 
         break;
     
     default:
