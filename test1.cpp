@@ -11,8 +11,6 @@ int main(){
         cout << "Good" << endl;
     case 'C':
         cout << "Average" << endl;
-        
-    
     default:
         break;
     }
