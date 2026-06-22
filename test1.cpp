@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    cout << "Hello Phaniswar" << endl;
+    char grade = 'A'
     return 0;
 }
