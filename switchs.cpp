@@ -12,7 +12,7 @@ int main(){
     case 'C':
         cout << "Averagess" << endl;
     default:
-        cout << "Invalid" << endl;
+        cout << "Invalidd" << endl;
     }
     return 0;
 }
