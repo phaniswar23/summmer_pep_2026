@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    int 
+    int marks = 
     return 0;
 }
