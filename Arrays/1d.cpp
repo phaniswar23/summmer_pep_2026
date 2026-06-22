@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    cout << "Array are set of " << endl;
+    cout << "Array are set of same data types" << endl;
     return 0;
 }
