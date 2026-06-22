@@ -10,7 +10,7 @@ int main(){
     case 'B':
         cout << "Good" << endl;
     case 'C':
-        cout << "Excellent" << endl;
+        cout << "Average" << endl;
         
     
     default:
