@@ -10,7 +10,7 @@ int main(){
     }
     if(leave < 10)
     {
-        
+        cout << 
     }
     return 0;
 }
