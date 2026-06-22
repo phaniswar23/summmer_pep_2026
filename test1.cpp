@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     char grade = 'A';
-    switch (expression)
+    switch (grade)
     {
     case constant expression:
         /* code */
