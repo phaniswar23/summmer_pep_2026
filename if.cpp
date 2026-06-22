@@ -8,5 +8,6 @@ int main(){
     {
         cout << "1" << endl;
     }
+    if(leave < 10)
     return 0;
 }
