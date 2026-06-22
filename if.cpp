@@ -12,6 +12,9 @@ int main(){
     {
         cout << "2" << endl;
     }
-    
+    else
+    {
+        cout << "3" << endl;
+    }
     return 0;
 }
