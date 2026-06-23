@@ -15,6 +15,6 @@ void doubleThevalue(int num)
 
 int main(){
     int num = 10;
-    doubleThevalue(num)
+    doubleThevalue(num);
     return 0;
 }
