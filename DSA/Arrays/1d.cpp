@@ -4,6 +4,6 @@ using namespace std;
 int main(){
     
     vector <int> vec1 = {1,2,3,4,5};
-    cout <<
+    cout << vec1[]
     return 0;
 }
