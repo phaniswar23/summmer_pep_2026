@@ -9,7 +9,7 @@ void func1()
 void doubleThevalue(int num)
 {
     num *= 2;
-    cout << "Inside: " << endl;
+    cout << "Inside: " << num << endl;
     
 }
 
