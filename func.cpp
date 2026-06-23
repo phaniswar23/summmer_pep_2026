@@ -9,7 +9,8 @@ void func1()
 void doubleThevalue(int num)
 {
     num *= 2;
-    cone
+    cout << "" << endl;
+    
 }
 
 int main(){
