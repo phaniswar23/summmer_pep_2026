@@ -3,7 +3,7 @@ using namespace std;
 
 void func1()
 {
-    cout << "Hello this is Void Function" << endl;
+    cout << "Hello This is Void Function" << endl;
     
 }
 
