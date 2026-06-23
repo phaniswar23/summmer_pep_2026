@@ -7,6 +7,9 @@ void func1()
     
 }
 void doubleThevalue()
+{
+    
+}
 int main(){
     func1();
     return 0;
