@@ -6,7 +6,7 @@ int main(){
     vec1.push_back(9);
     cout << vec1.at(3) << endl;
     cout << vec1.at(5) << endl;
-    cout << vec1.size() << endl;;
+    cout << vec1.size() << endl;
     vec1.pop_back();
     cout << vec1.size();
     return 0;
