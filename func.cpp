@@ -3,7 +3,8 @@ using namespace std;
 
 void func1()
 {
-    re
+    cout << "" << endl;
+    
 }
 
 int main(){
