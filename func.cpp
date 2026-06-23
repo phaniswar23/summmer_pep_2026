@@ -16,7 +16,7 @@ void doubleThevalue(int num)
 int main(){
     int num = 10;
     doubleThevalue(num);
-    cout << "OutSide: " <<  << endl;
+    cout << "OutSide: " << num << endl;
     
     return 0;
 }
