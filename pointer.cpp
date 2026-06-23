@@ -6,6 +6,6 @@ int main(){
     int *ptr = &a;
     cout << &a << endl;
     cout << ptr << endl;
-    cout << *(ptr+1)
+    cout << *(ptr+1);
     return 0;
 }
