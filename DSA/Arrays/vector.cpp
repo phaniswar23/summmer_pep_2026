@@ -6,6 +6,6 @@ int main(){
     vec1.push_back(9);
     cout << vec1.at(3) << endl;
     cout << vec1.at(5) << endl;
-    
+    cout << v.size();
     return 0;
 }
