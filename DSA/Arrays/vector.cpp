@@ -8,6 +8,7 @@ int main(){
     cout << vec1.at(5) << endl;
     cout << vec1.size() << endl;
     vec1.pop_back();
+    vec1.pop_back();
     cout << vec1.size();
     return 0;
 }
