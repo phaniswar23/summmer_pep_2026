@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    vector<int>
+    vector<int> vec1 = 
     return 0;
 }
