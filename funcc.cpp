@@ -3,7 +3,7 @@ using namespace std;
 
 void func1()
 {
-    cout << " Void Function" << endl;
+    cout << "Void Function" << endl;
     
 }
 void doubleThevalue(int &num)
