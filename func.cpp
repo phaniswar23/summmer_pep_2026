@@ -6,7 +6,7 @@ void func1()
     cout << "This is Void Function" << endl;
     
 }
-void doubleThevalue()
+void doubleThevalue(int num)
 {
     num *= 2;
 }
