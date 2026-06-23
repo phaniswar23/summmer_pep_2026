@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 
-void func1
+void func1()
+{
+    
+}
 
 int main(){
     
