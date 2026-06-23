@@ -8,7 +8,7 @@ void func1()
 }
 void doubleThevalue()
 {
-    num *
+    num *= 2;
 }
 
 int main(){
