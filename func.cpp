@@ -14,6 +14,7 @@ void doubleThevalue(int num)
 }
 
 int main(){
+    int num = 10;
     
     return 0;
 }
