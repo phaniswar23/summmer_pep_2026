@@ -5,6 +5,7 @@ int main(){
     int a = 10;
     int *ptr = &a;
     cout << a << endl;
+    cout << a << endl;
     
     return 0;
 }
