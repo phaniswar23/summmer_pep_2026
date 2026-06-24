@@ -22,6 +22,6 @@ int LinearSearch(int arr[],int key)
 }
 
 int main(){
-    int arr[] = {}
+    int arr[] = {12,}
     return 0;
 }
