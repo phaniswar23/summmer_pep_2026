@@ -10,4 +10,19 @@ O(n) => Linear time -> The time grows directly proportional to input size
 O(log n) => Logarathemic time -> The time grows logaramthmically as input size increases,often seen in algos 
 
 
+
+
+One loop              → O(n)
+
+Two nested loops      → O(n²)
+
+Three nested loops    → O(n³)
+
+Divide by 2           → O(log n)
+
+Sort()                → O(n log n)
+
+Binary Search         → O(log n)
+
+Linear Search         → O(n)
 */
