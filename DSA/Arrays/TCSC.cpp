@@ -4,6 +4,6 @@ Big O - Represets Upper Bound of running time,it gives the worst case scenerio f
 
 O(1) => Constant time -> The times taken donesn't depand on the input size,algorithm always run in the same time
 
-O(n) => Linear time -> The time grows directly 
+O(n) => Linear time -> The time grows directly proportiona
 
 */
