@@ -3,7 +3,7 @@ Time Complexity - How much time an algorithm takes as input size increases
 Big O - Represets Upper Bound of running time,it gives the worst case scenerio for an algorithm,it describes the maximum
 
 O(1) => Constant time -> The times taken donesn't depand on the input size,algorithm always run in the same time
-that divides that input in half like Binary Serach
+that divides that input in half like Binary Search
 
 O(n) => Linear time -> The time grows directly proportional to input size
 
