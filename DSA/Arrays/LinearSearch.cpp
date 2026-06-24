@@ -4,7 +4,6 @@ using namespace std;
 int LinearSearch(int arr[],int key)
 {
 
-    
     for(int i = 0;i < 8;i++)
     {
         if(arr[i] == key)
