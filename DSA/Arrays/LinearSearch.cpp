@@ -5,7 +5,7 @@ int LinearSearch(int arr[],int key)
 {
 
     
-    for(int i = 0;i < n;i++)
+    for(int i = 0;i < ;i++)
     {
         if(arr[i] == key)
         {
