@@ -43,6 +43,7 @@ int BinarySearch(int arr[], int n, int key)
 int main(){
     int arr[] = {12,32,55,1,26,53,78};
     int key = 53;
+    int n = 
    cout<< LinearSearch(arr,key);
     return 0;
 }
