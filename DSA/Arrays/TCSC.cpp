@@ -11,7 +11,7 @@ O(log n) => Logarathemic time -> The time grows logaramthmically as input size i
 
 O(n log n) => Linearithemic -> Mix of Linear and Logarathmic,example :- Quick sort and Merge Sort
 
-O(n^2) => Quadratic -> Time will  grow proportinally to square of input k
+O(n^2) => Quadratic -> Time will  grow proportinally to square of input size
 
 
 One loop              → O(n)
