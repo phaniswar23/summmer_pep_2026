@@ -23,6 +23,7 @@ int LinearSearch(int arr[],int key)
 
 int main(){
     int arr[] = {12,32,55,1,26,53,78};
-    int key = 5
+    int key = 53;
+    
     return 0;
 }
