@@ -9,7 +9,7 @@ O(n) => Linear time -> The time grows directly proportional to input size
 
 O(log n) => Logarathemic time -> The time grows logaramthmically as input size increases,often seen in algos 
 
-O(n log n) => Linearithemic -> Mix of Linear and Logarathmic,ex
+O(n log n) => Linearithemic -> Mix of Linear and Logarathmic,example :- 
 
 
 One loop              → O(n)
