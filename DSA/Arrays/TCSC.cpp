@@ -7,7 +7,7 @@ that divides that input in half like Binary Search
 
 O(n) => Linear time -> The time grows directly proportional to input size
 
-O(log n) => Logarathemic time -> The time grows logaramthmically as input size increases,often seen in algos 
+O(log n) => Logarathemic time -> The time grows logaramthmically as input size increases,often seen in algos
 
 O(n log n) => Linearithemic -> Mix of Linear and Logarathmic,example :- Quick sort and Merge Sort
 
