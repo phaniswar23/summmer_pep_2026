@@ -11,7 +11,7 @@ int LinearSearch(int arr[],int key)
         {
             if(key > 20)
             {
-                return 
+                return key * 2;
             }
         }
     }
