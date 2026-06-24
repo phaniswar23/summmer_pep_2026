@@ -4,7 +4,7 @@ using namespace std;
 int LinearSearch(int arr[])
 {
     int n = arr.size();
-    for
+    for(int i = 0;i < )
 }
 
 int main(){
