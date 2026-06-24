@@ -44,7 +44,7 @@ int main(){
     int arr[] = {12,32,55,1,26,53,78};
     int key = 53;
     int n = sizeof(arr) / sizeof(arr[0]);
-   cout<< LinearSearch(arr,key) ;
+   cout<< LinearSearch(arr,key) << endl;
    co
     return 0;
 }
