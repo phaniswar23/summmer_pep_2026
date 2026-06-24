@@ -45,6 +45,6 @@ int main(){
     int key = 53;
     int n = sizeof(arr) / sizeof(arr[0]);
    cout<< LinearSearch(arr,key) << endl;
-   cout<< BinarySearch(arr,n,)
+   cout<< BinarySearch(arr,n,ke)
     return 0;
 }
