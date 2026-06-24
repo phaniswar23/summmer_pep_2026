@@ -13,6 +13,10 @@ int LinearSearch(int arr[],int key)
             {
                 return key * 2;
             }
+            else
+            {
+                return 
+            }
         }
     }
 }
