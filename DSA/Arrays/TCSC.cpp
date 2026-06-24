@@ -6,7 +6,7 @@ O(1) => Constant time -> The times taken donesn't depand on the input size,algor
 
 O(n) => Linear time -> The time grows directly proportional to input size
 
-O(log n) => Logarathemic time -> The time grows logaramthmically as input size increases
+O(log n) => Logarathemic time -> The time grows logaramthmically as input size increases,often seen in algos 
 
 
 */
