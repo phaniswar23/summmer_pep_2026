@@ -9,7 +9,10 @@ int LinearSearch(int arr[],int key)
     {
         if(arr[i] == key)
         {
-            if()
+            if(key > 20)
+            {
+                
+            }
         }
     }
 }
