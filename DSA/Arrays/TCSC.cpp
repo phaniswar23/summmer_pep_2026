@@ -1,3 +1,3 @@
 /*
-Time Complexity - How much time an a
+Time Complexity - How much time an algor
 */
