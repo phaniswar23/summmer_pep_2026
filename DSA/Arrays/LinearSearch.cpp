@@ -9,7 +9,7 @@ int LinearSearch(int arr[],int key)
     {
         if(arr[i] == key)
         {
-            return 
+            if
         }
     }
 }
