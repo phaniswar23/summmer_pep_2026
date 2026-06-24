@@ -17,6 +17,7 @@ int LinearSearch(int arr[],int key)
             }
         }
     }
+    return -1;
 }
 
 int main(){
