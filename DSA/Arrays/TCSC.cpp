@@ -16,7 +16,7 @@ O(n^2) => Quadratic -> Time will  grow proportinally to square of input size
 
 One loop              → O(n)
 
-Two nested loops      → O(n²)
+Two nested loops      → O(n²
 
 Three nested loops    → O(n³)
 
