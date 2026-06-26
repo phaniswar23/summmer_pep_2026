@@ -24,7 +24,7 @@ int BinarySearch(int arr[], int n, int key)
     int low = 0;
     int high = n - 1;
 
-    while(lo
+    while(low <= high)
     {
         int mid = (low + high) / 2;
 
