@@ -37,7 +37,7 @@ int main(){
   int key = 4;
   int size = 7;
   cout << LinearSearch(arr,key,size) << endl;
-cout << binarySearch(arr, 0, size - 1, key);
+cout << binarySearch(arr, 0, size, key);
 
     return 0;
 }
