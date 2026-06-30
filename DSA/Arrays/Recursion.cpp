@@ -13,7 +13,7 @@ int fib(int n)
 
     return fib(n - 1) + fib(n - 2);
 }
-int Linear
+int LinearSearch()
 int main(){
   cout <<  fact(6) << endl;
   cout << fib(9);
