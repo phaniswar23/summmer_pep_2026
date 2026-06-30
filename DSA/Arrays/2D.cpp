@@ -29,7 +29,7 @@ int main(){
     }
 
     cout << "Output" << endl;
-    printevencol(arr[3][4]);
+    printevencol(arr);
 
     
     return 0;
