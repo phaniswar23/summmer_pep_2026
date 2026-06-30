@@ -9,7 +9,7 @@ int main(){
     {
         for (int j = 0; j < 4; j++)
         {
-            cin >> arr[i]
+            cin >> arr[i][j]
         }
         
     }
