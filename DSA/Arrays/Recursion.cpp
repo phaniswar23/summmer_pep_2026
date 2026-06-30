@@ -25,6 +25,6 @@ int main(){
   int arr[] = {3,5,1,9,4,6,8};
   int key = 4;
   int size = 7;
-  cout << LinearSearch()
+  cout << LinearSearch(arr[])
     return 0;
 }
