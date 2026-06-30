@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int 
+int even
 int main(){
     
     int arr[3][4];
