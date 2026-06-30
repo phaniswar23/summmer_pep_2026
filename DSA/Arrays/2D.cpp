@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void printevencol(int arr[3][4],int col)
+void printevencol(int arr[col][4],int col)
 {
     for (int i = 0; i < 3; i++)
     {
