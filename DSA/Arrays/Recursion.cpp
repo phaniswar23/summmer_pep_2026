@@ -21,8 +21,7 @@ bool LinearSearch(int arr[],int size,int key)
 }
 bool binarySearch(int arr[],int s,int e,int key)
 {
-    if(s <= e)
-    return false;
+    if(s <= e) return false;
     int mid = (s + e)/2;
     if(arr[mid] == )
 }
