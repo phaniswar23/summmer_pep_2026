@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 void printevencol(int arr[][])
+{
+    
+}
 int main(){
     
     int arr[3][4];
