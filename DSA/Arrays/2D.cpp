@@ -22,7 +22,8 @@ int main(){
 
             cout << arr[i][j]  << " ";
         }
-        break;
+        cout << "" << endl;
+        ;
         
     }
 
