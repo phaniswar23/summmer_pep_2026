@@ -13,7 +13,10 @@ int fib(int n)
 
     return fib(n - 1) + fib(n - 2);
 }
-bool LinearSearch(int arr,)
+bool LinearSearch(int arr,int size,int key)
+{
+    
+}
 int main(){
   cout <<  fact(6) << endl;
   cout << fib(9);
