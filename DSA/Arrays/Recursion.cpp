@@ -24,6 +24,9 @@ bool binarySearch(int arr[],int s,int e,int key)
     if(s <= e) return false;
     int mid = (s + e)/2;
     if(arr[mid] == key)
+    {
+        return true;
+    }
 }
 int main(){
 //   cout <<  fact(6) << endl;
