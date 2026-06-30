@@ -18,7 +18,7 @@ int main(){
     {
         for (int j = 0; j < 4; j++)
         {
-            iout >> arr[i][j];
+            cout >> arr[i][j];
         }
         
     }
