@@ -9,7 +9,9 @@ int fact(int n)
 }
 int fib(int n)
 {
-    
+    if(n == 0) return 0;
+
+    return fib(n - )
 }
 int main(){
   cout <<  fact(6);
