@@ -15,7 +15,7 @@ int fib(int n)
 }
 bool LinearSearch(int arr,int size,int key)
 {
-    if()
+    if(arr[0] == key)
 }
 int main(){
   cout <<  fact(6) << endl;
