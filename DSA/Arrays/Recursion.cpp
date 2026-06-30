@@ -17,7 +17,7 @@ bool LinearSearch(int arr[],int size,int key)
 {
     if(arr[size] == key) return true;
 
-    return 
+    return LinearSearch()
 }
 int main(){
   cout <<  fact(6) << endl;
