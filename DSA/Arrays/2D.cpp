@@ -21,6 +21,7 @@ int main(){
         {
             if(j % 2 == 0){
             cout << arr[i][j]  << " ";
+            }
         }
         cout << "" << endl;
         
