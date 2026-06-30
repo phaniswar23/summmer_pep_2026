@@ -15,7 +15,7 @@ int fib(int n)
 }
 bool LinearSearch(int arr[],int size,int key)
 {
-    if(arr[size] == key) return true;
+    if(arr[0] == key) return true;
 
     return LinearSearch(arr + 1,size - 1,key);
 }
