@@ -13,7 +13,7 @@ int fib(int n)
 
     return fib(n - 1) + fib(n - 2);
 }
-bool LinearSearch(int arr,int size,int key)
+bool LinearSearch(int arr[],int size,int key)
 {
     if(arr[size] == key) return true;
 }
