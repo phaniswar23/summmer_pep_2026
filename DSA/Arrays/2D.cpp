@@ -19,7 +19,7 @@ int main(){
     {
         for (int j = 0; j < 4; j++)
         {
-            if
+            if()
             cout << arr[i][j]  << endl;
         }
         
