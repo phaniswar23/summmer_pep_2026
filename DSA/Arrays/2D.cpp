@@ -7,13 +7,7 @@ int main(){
 
     for (int i = 0; i < 3; i++)
     {
-        for (int <?php
-        echo ;
-        ?> = 0; <?php
-        echo ;
-        ?> < count; <?php
-        echo ;
-        ?>++)
+        for (int j = 0; j < count; j++)
         {
             /* code */
         }
