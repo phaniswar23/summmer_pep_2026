@@ -19,7 +19,7 @@ bool LinearSearch(int arr[],int size,int key)
 
     return LinearSearch(arr + 1,size - 1,key);
 }
-bool binarySearch(int arr[],int s,int e,)
+bool binarySearch(int arr[],int s,int e,int key)
 {
     if()
 }
