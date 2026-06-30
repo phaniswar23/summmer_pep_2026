@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     
     int arr[3][4];
-    cout<<"Enter values of arr" << 
+    cout<<"Enter values of arr" << endl;
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 4; j++)
