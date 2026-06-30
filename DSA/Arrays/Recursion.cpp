@@ -14,7 +14,7 @@ int fib(int n)
     return fib(n - 1) + fib(n - 2);
 }
 int main(){
-  cout <<  fact(6);
+  cout <<  fact(6) << endl;
   cout << fib(3);
     return 0;
 }
