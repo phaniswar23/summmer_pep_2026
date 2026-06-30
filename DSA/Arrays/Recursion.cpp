@@ -9,6 +9,6 @@ int fact(int n)
 }
 
 int main(){
-    fact(6);
+  cout <<  fact(6);
     return 0;
 }
