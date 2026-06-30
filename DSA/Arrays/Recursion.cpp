@@ -9,7 +9,7 @@ int fact(int n)
 }
 int fib(int n)
 {
-    if(n <) return 0;
+    if(n ) return 0;
 
     return fib(n - 1) + fib(n - 2);
 }
