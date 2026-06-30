@@ -19,7 +19,7 @@ bool LinearSearch(int arr[],int size,int key)
 
     return LinearSearch(arr + 1,size - 1,key);
 }
-bool binarySearch(int arr[])
+bool binarySearch(int arr[],int )
 int main(){
 //   cout <<  fact(6) << endl;
 //   cout << fib(9);
