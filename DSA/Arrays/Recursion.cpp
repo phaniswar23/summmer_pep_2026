@@ -21,7 +21,7 @@ bool LinearSearch(int arr[],int size,int key)
 }
 bool binarySearch(int arr[],int )
 {
-    
+    if()
 }
 int main(){
 //   cout <<  fact(6) << endl;
