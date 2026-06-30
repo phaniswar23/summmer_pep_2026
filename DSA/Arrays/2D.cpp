@@ -29,7 +29,7 @@ int main(){
     }
 
     cout << "Output" << endl;
-    cout 
+    cout <<
 
     
     return 0;
