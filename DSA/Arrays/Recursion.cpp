@@ -20,5 +20,6 @@ bool LinearSearch(int arr[],int size,int key)
 int main(){
   cout <<  fact(6) << endl;
   cout << fib(9);
+  int arr
     return 0;
 }
