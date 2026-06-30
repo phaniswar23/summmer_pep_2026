@@ -23,7 +23,7 @@ bool binarySearch(int arr[],int s,int e,int key)
 {
     if(s <= e)
     return false;
-    int mid = 
+    int mid = (s + e)
     if()
 }
 int main(){
