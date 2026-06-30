@@ -22,7 +22,7 @@ int main(){
 
             cout << arr[i][j]  << endl;
         }
-        if(i)
+        brea
         
     }
 
