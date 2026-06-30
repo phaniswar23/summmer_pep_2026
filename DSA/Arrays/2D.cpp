@@ -2,7 +2,18 @@
 using namespace std;
 void printevencol(int arr[][])
 {
-    
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
+            if(j % 2 == 0){
+            cout << arr[i][j]  << " ";
+            }
+        }
+        cout << "" << endl;
+        
+        
+    }
 }
 int main(){
     
