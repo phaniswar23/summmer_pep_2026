@@ -15,6 +15,6 @@ int fib(int n)
 }
 int main(){
   cout <<  fact(6) << endl;
-  cout << fib(90);
+  cout << fib(9);
     return 0;
 }
