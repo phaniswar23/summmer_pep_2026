@@ -9,6 +9,6 @@ int fact(int n)
 }
 
 int main(){
-    fact()
+    fact(6)
     return 0;
 }
