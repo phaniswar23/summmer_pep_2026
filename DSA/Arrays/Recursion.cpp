@@ -28,7 +28,7 @@ bool binarySearch(int arr[],int s,int e,int key)
         return true;
     }
     else if(arr[mid] < key) return binarySearch(arr,mid+1,e,key);
-    else return binarySearch(arr,mid+1,e,key);
+    else return binarySearch(arr,s,e,key);
 }
 int main(){
 //   cout <<  fact(6) << endl;
