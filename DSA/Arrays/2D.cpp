@@ -5,7 +5,7 @@ int main(){
     
     int arr[3][4];
 
-    for (size_t i = 0; i < count; i++)
+    for (int i = 0; i < count; i++)
     {
         /* code */
     }
