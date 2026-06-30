@@ -29,18 +29,7 @@ int main(){
     }
 
     cout << "Output" << endl;
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            if(j % 2 == 0){
-            cout << arr[i][j]  << " ";
-            }
-        }
-        cout << "" << endl;
-        
-        
-    }
+    cout 
 
     
     return 0;
