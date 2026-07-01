@@ -9,7 +9,7 @@ string reverse(string s)
     int ed = s.length() - 1;
     while(st < ed)
     {
-        swap(s[st],str[ed]);
+        swap(s[st],s[ed]);
         s++;
         e--;
     }
