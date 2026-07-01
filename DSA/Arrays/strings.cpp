@@ -9,7 +9,8 @@ string reverse(string s)
     while(s < e)
     {
         swap(str[s],str[e]);
-        
+        s++;
+        e--;
     }
     
     
