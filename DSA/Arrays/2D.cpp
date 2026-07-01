@@ -65,7 +65,7 @@ void shape(int arr[][4])
             }
             else
             {
-                
+                for(int i = )
             }
         }
         
