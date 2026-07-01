@@ -48,7 +48,7 @@ void maxprint(int arr[3][3])
         
         
     }
-    cout << "Max Sum" << maxi << "AT ROW INDEX" <<  " " << index << endl;
+    cout << "Max Sum " << maxi << "AT ROW INDEX" <<  " " << index << endl;
 }
 int main(){
     
