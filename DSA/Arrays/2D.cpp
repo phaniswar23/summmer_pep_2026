@@ -117,7 +117,6 @@ int main()
    cout<< "Wave Shape: " << endl;
    shape(arr2);
    cout << "" << endl;
-   
    cout<< "Spiral Shape: " << endl;
    
    cout  spiralprint(arr2);
