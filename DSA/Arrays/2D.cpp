@@ -29,7 +29,6 @@ int main(){
     // }
 
     cout << "Output" << endl;
-    printevencol();
 
     
     return 0;
