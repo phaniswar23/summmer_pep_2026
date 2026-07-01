@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include <algorithm>
 using namespace std;
 
 string reverse(string s)
