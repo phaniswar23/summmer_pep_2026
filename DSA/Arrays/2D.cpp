@@ -70,7 +70,7 @@ void shape(int arr[][4])
         }
     }
 }
-
+void spiralprint(int arr[])
 int main()
 {
 
