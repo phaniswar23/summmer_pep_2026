@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 
-string 
+string reverse(string s)
+{
+    s.re
+}
 
 int main(){
     string str1 = "Hello";
