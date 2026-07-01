@@ -45,7 +45,7 @@ int main(){
         
     // }
 
-        calprint()
+        calprint(arr);
 
     
     return 0;
