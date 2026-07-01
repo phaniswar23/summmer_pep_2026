@@ -32,7 +32,7 @@ void calprint(int arr[3][3])
     
 }
 //print thr value of max sum and also its index
-void calprint(int arr[3][3])
+void maxprint(int arr[3][3])
 {
    
     for (int i = 0; i < 3; i++){
