@@ -16,7 +16,7 @@ bool search(int arr[][3],int row,int col,int target)
     return false;
 }
 
-
+//Calculate and print sum of every row
 
 int main(){
     
