@@ -10,8 +10,6 @@ bool search(int arr[][3],int row,int col,int target)
             return true;
             }
         }
-
-        
     }
     return false;
 }
