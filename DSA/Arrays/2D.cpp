@@ -79,8 +79,8 @@ int main()
 
     int arr[3][3] = {1, 2, 3, 7, 8, 9, 1, 1, 1};
     int arr2[4][4] = {6,13,8,3,11,1,12,16,4,15,5,9,10,2,14,17};
-    calprint(arr);
-    maxprint(arr);
+    // calprint(arr);
+    // maxprint(arr);
     shape(arr2);
     return 0;
 }
