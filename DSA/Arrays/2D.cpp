@@ -122,6 +122,6 @@ int main()
     shape(arr2);
     cout << "" << endl;
     cout << "Spiral Shape: " << endl;
-    spiralprint(arr2,4,4);
+    spiral(arr2,4,4);
     return 0;
 }
