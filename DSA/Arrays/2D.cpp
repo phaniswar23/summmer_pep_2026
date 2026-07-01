@@ -19,7 +19,7 @@ bool search(int arr[][3],int row,int col,int target)
 //Calculate and print sum of every row
 void calprint(int arr[3][3])
 {
-   
+   int sum = 0;
     for (int i = 0; i < 3; i++)
     {
          
