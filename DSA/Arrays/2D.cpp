@@ -76,7 +76,7 @@ void spiralprint(int arr2[4][4],int row,int col)
     int bottom = row - 1;
     int left = 0;
     int right = col - 1;
-
+    
 }
 int main()
 {
