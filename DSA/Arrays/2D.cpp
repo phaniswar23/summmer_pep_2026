@@ -28,7 +28,7 @@ int main(){
         
     // }
 
-    cout << "Output" << endl;
+    cout <<  << endl;
 
     
     return 0;
