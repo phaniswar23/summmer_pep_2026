@@ -54,7 +54,7 @@ void shape(int arr)
 {
     for (int i = 0; i < 4; i++)
     {
-        for (int j = 0; j < ; j++)
+        for (int j = 0; j < 4; j++)
         {
             /* code */
         }
