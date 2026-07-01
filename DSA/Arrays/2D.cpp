@@ -63,6 +63,8 @@ void shape(int arr[][4])
                 }
                 
             }
+            else
+            
         }
         
     }
