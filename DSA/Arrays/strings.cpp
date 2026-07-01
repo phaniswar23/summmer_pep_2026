@@ -4,7 +4,7 @@ using namespace std;
 string reverse(string s)
 {
     int s = 0;
-    int e = s.size() - 1
+    int e = s.size() - 1;
     for (int i = 0; i < s.size(); i++)
     {
         
