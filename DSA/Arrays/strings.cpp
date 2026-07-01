@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    car 
+    char 
     return 0;
 }
