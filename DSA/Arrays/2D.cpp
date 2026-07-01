@@ -31,7 +31,8 @@ void calprint(int arr[3][3])
 
     
 }
-//print thr value of max sum and also its index;
+//print thr value of max sum and also its index
+
 int main(){
     
     int arr[3][3] = {1,2,3,4,5,6,7,8,9};
