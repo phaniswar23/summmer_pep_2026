@@ -46,7 +46,7 @@ void maxprint(int arr[3][3])
 }
 int main(){
     
-    int arr[3][3] = {1,2,3,7,8,9,7,8,9};
+    int arr[3][3] = {1,2,3,7,8,9,1};
 
         calprint(arr);
         maxprint(arr);
