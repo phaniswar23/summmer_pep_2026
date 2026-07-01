@@ -57,7 +57,7 @@ void shape(int arr[][4])
         {
             if(j % 2 == 0)
             {
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < 4; i++)
                 {
                     cout << arr[i][j] << endl;
                 }
