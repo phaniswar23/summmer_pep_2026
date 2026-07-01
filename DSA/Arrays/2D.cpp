@@ -45,7 +45,7 @@ int main(){
         
     // }
 
-        
+        calprint()
 
     
     return 0;
