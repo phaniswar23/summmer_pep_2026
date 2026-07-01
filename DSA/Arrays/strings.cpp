@@ -7,7 +7,7 @@ int main(){
     
     if(str1 == str2) cout << "SAME" << endl;
     else cout << "NOT SAME" << endl;
-    str1.
+    
     
     return 0;
 }
