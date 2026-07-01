@@ -70,31 +70,40 @@ void shape(int arr[][4])
         }
     }
 }
-void spiralprint(int arr2[4][4], int row, int col)
+void spiral(int arr[][4], int row, int col)
 {
     int top = 0;
     int bottom = row - 1;
     int left = 0;
     int right = col - 1;
 
-    while(top <= bottom && left <= right)
+    while (top <= bottom && left <= right)
     {
-        //print the top row
+        // Top Row
         for (int i = left; i <= right; i++)
-        {
-            cout << arr2[top][i] << " ";
-        }
+            cout << arr[top][i] << " ";
         top++;
 
-        for(int i = top;i <= bottom; i++)
-        {
-            cout << arr2[i][right] << " ";
-        }
+        // Right Column
+        for (int i = top; i <= bottom; i++)
+            cout << arr[i][right] << " ";
         right--;
 
-        
+        // Bottom Row
+        if (top <= bottom)
+        {
+            for (int i = right; i >= left; i--)
+                cout << arr[bottom][i] << " ";
+            bottom--;
+        }
 
-        
+        // Left Column
+        if (left <= right)
+        {
+            for (int i = bottom; i >= top; i--)
+                cout << arr[i][left] << " ";
+            left++;
+        }
     }
 }
 
