@@ -50,7 +50,7 @@ void maxprint(int arr[3][3])
 }
 
 
-void shape(int arr)
+void shape(int arr[][])
 {
     
         for (int j = 0; j < 4; j++)
