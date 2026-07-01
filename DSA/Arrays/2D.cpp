@@ -56,7 +56,7 @@ void shape(int arr)
     {
         for (int j = 0; j < 4; j++)
         {
-            if(j )
+            if(j % )
         }
         
     }
