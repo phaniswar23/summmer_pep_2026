@@ -3,7 +3,7 @@ using namespace std;
 
 string reverse(string s)
 {
-    for (int i = 0; i < ; i++)
+    for (int i = 0; i < s.size(); i++)
     {
         /* code */
     }
