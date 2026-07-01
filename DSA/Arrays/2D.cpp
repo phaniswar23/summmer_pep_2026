@@ -52,6 +52,10 @@ void maxprint(int arr[3][3])
 
 void shape(int arr)
 {
+    for (int i = 0; i < count; i++)
+    {
+        /* code */
+    }
     
 }
 int main()
