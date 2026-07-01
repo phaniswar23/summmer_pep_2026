@@ -42,7 +42,7 @@ void maxprint(int arr[3][3])
             sum += arr[i][j];
         }
         
-        maxi = max(maxi,sum);
+        
         cout << "Max Sum" << endl;
         cout << maxi << endl;
     }
