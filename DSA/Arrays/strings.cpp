@@ -6,7 +6,7 @@ using namespace std;
 string reverse(string s)
 {
     int st = 0;
-    int e = s.length() - 1;
+    int ed = s.length() - 1;
     while(s < e)
     {
         swap(str[s],str[e]);
