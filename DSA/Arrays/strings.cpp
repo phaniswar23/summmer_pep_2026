@@ -5,7 +5,7 @@ string reverse(string s)
 {
     for (int i = 0; i < s.size(); i++)
     {
-        s.length
+        s.length()
     }
     
 }
