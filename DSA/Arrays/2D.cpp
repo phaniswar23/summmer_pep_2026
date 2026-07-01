@@ -17,7 +17,7 @@ void printevencol(int col,int arr[][col])
 }
 int main(){
     
-    int arr[][4] = {1,2,3,4,5,6,7,8,9,10,11,12};
+    int arr[][4] = {1,2,3,4,5,6,7,8,9,12};
     // cout<<"Enter values of arr" << endl;
     // for (int i = 0; i < 3; i++)
     // {
