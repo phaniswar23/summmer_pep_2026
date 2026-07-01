@@ -64,7 +64,7 @@ int main(){
     // }
 
         calprint(arr);
-
+        maxprint(arr);
     
     return 0;
 }
