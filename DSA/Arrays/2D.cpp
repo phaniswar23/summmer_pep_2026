@@ -78,7 +78,7 @@ int main()
 {
 
     int arr[3][3] = {1, 2, 3, 7, 8, 9, 1, 1, 1};
-    int arr[4][4] = {}
+    int arr[4][4] = {6,13,}
     calprint(arr);
     maxprint(arr);
 
