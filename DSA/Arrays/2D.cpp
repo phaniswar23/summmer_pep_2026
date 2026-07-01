@@ -86,7 +86,7 @@ void spiralprint(int arr2[4][4], int row, int col)
         }
         top++;
 
-        for(int i = )
+        for(int i = top)
 
         
     }
