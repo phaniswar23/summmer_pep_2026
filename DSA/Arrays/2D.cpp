@@ -49,30 +49,27 @@ void maxprint(int arr[3][3])
     cout << "Max SUM is : " << maxi << " AT ROW INDEX" << " " << index << endl;
 }
 
-
 void shape(int arr[][4])
 {
-    
-        for (int j = 0; j < 4; j++)
+
+    for (int j = 0; j < 4; j++)
+    {
+        if (j % 2 == 0)
         {
-            if(j % 2 == 0)
-            {
-                for (int i = 0; i < 4; i++)
-                {
-                    cout << arr[i][j] << " ";
-                }
-                
-            }
-            else
-            {
-                for(int i = 3;i >= 0;i--)
+            for (int i = 0; i < 4; i++)
             {
                 cout << arr[i][j] << " ";
             }
+        }
+        else
+        {
+            for (int i = 3; i >= 0; i--)
+            {
+                cout << arr[i][j] << " ";
             }
         }
-        
     }
+}
 
 int main()
 {
@@ -82,8 +79,7 @@ int main()
         {6, 11, 4, 10},
         {13, 1, 15, 2},
         {8, 12, 5, 14},
-        {3, 16, 9, 7}
-    };
+        {3, 16, 9, 7}};
     // calprint(arr);
     // maxprint(arr);
     shape(arr2);
