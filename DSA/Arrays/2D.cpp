@@ -21,7 +21,11 @@ void calprint(int arr[3][3])
 {
     for (int i = 0; i < 3; i++)
     {
-        /* code */
+        for (size_t i = 0; i < count; i++)
+        {
+            /* code */
+        }
+        
     }
     
 }
