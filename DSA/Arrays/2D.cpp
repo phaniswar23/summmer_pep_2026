@@ -47,7 +47,6 @@ void maxprint(int arr[3][3])
         
     }
     cout << "Max Sum" << maxi << endl;
-    cout <<  << endl;
 }
 int main(){
     
