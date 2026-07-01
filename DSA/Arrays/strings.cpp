@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    char 
+    char arr[] = 
     return 0;
 }
