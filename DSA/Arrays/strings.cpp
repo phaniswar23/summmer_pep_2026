@@ -7,7 +7,7 @@ string reverse(string s)
 {
     int st = 0;
     int ed = s.length() - 1;
-    while(s < e)
+    while(st < e)
     {
         swap(str[s],str[e]);
         s++;
