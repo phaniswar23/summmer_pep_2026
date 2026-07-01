@@ -40,6 +40,7 @@ void maxprint(int arr[3][3])
         for (int j = 0; j < 3; j++)
         {
             sum += arr[i][j];
+            maxi = max(maxi,sum);
         }
         
         
