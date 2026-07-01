@@ -21,7 +21,13 @@ void calprint(int arr[3][3])
 {
     for (int i = 0; i < 3; i++)
     {
-        for (int i = 0; i < count; i++)
+        for (int <?php
+        echo ;
+        ?> = 0; <?php
+        echo ;
+        ?> < count; <?php
+        echo ;
+        ?>++)
         {
             /* code */
         }
