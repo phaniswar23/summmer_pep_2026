@@ -23,7 +23,7 @@ void calprint(int arr[3][3])
     {
         for (int j = 0; j < 3; j++)
         {
-            /* code */
+            if(arr[])
         }
         
     }
