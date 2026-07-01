@@ -66,8 +66,7 @@ void shape(int arr)
         }
         
     }
-    
-}
+
 int main()
 {
 
