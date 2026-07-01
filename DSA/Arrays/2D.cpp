@@ -82,10 +82,10 @@ void spiralprint(int arr2[4][4], int row, int col)
         //print the top row
         for (int i = left; i <= right; i++)
         {
-            cout << arr2[top][i] << endl;
+            cout << arr2[top][i] << " ";
         }
         top++;
-        
+
 
         
     }
