@@ -26,7 +26,7 @@ void calprint(int arr[3][3])
         {
             
             sum += arr[i][j];
-            break;
+            
         }
         cout << sum << endl;
     }
