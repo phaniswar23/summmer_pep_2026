@@ -3,7 +3,7 @@ using namespace std;
 
 string reverse(string s)
 {
-    s.
+    s.r
 }
 
 int main(){
