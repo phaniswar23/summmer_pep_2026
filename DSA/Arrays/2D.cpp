@@ -50,7 +50,7 @@ void maxprint(int arr[3][3])
 }
 
 
-void 
+void wave
 int main()
 {
 
