@@ -78,7 +78,7 @@ void spiralprint(int arr2[4][4],int row,int col)
     int right = col - 1;
 
     for (int i = left; i <= right; i++)
-            cout << arr[top][i] << " ";
+            cout << arr2[top][i] << " ";
         top++;
 
         // Right Column
