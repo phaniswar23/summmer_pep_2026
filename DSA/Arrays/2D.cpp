@@ -39,7 +39,7 @@ void maxprint(int arr[3][3])
         {
             sum += arr[i][j];
             maxi = max(maxi,sum);
-            index = j;
+            index = ;
         }
     }
     cout << "Max SUM is : " << maxi << " AT ROW INDEX" <<  " " << index << endl;
