@@ -10,7 +10,7 @@ string reverse(string s)
     while(st < ed)
     {
         swap(s[st],s[ed]);
-        s++;
+        st++;
         e--;
     }
     
