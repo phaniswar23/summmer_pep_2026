@@ -59,7 +59,7 @@ void shape(int arr)
             {
                 for (int i = 0; i < 3; i++)
                 {
-                    cout << arr[i][j] << endl;
+                    cout << arr[][j] << endl;
                 }
                 
             }
