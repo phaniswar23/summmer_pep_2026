@@ -6,7 +6,7 @@ void printevencol(int arr[][3],int row,int col,int target)
     {
         for (int j = 0; j < 4; j++)
         {
-            if(arr[i]){
+            if(arr[i][]){
             cout << arr[i][j]  << " ";
             }
         }
