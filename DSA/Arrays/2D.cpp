@@ -45,8 +45,6 @@ void maxprint(int arr[3][3])
             index = i;
         }
         
-        
-        
     }
     cout << "Max Sum " << maxi << " AT ROW INDEX" <<  " " << index << endl;
 }
