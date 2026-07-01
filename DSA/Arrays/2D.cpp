@@ -78,6 +78,9 @@ void spiralprint(int arr2[4][4], int row, int col)
     int right = col - 1;
 
     while(top <= bottom && left <= right)
+    {
+        
+    }
 }
 
 int main()
