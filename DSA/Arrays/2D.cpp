@@ -115,5 +115,6 @@ int main()
     // calprint(arr);
     // maxprint(arr);
     shape(arr2);
+    spiral
     return 0;
 }
