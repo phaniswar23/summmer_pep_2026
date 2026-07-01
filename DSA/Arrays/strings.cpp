@@ -1,4 +1,5 @@
 #include<iostream>
+
 using namespace std;
 
 string reverse(string s)
@@ -8,7 +9,7 @@ string reverse(string s)
     while (s < e)
     {
         swap(str[s],str[e]);
-        
+
     }
     
     
