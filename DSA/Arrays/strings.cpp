@@ -5,7 +5,7 @@ using namespace std;
 
 string reverse(string s)
 {
-    int s = 0;
+    int st = 0;
     int e = s.length() - 1;
     while(s < e)
     {
