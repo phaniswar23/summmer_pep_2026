@@ -115,6 +115,7 @@ int main()
     // calprint(arr);
     // maxprint(arr);
    cout<< "Wave Shape: " <<  << endl;
+   hape(arr2)
    cout  spiralprint(arr2);
     return 0;
 }
