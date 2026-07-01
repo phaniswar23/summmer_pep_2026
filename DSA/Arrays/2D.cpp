@@ -79,7 +79,7 @@ void spiralprint(int arr2[4][4], int row, int col)
 
     while(top <= bottom && left <= right)
     {
-        
+        //print 
         for (int i = left; i <= right; i++)
         {
             cout << arr2[top][i] << endl;
