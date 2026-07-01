@@ -17,6 +17,7 @@ int main(){
     if(str1 == str2) cout << "SAME" << endl;
     else cout << "NOT SAME" << endl;
     
+    cout << str1.length() << endl;
     
     return 0;
 }
