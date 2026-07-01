@@ -70,7 +70,7 @@ void shape(int arr[][4])
         }
     }
 }
-void spiralprint(int arr2[4][4],int row,int col)
+void spiralprint(int arr2[4][4], int row, int col)
 {
     int top = 0;
     int bottom = row - 1;
@@ -78,30 +78,30 @@ void spiralprint(int arr2[4][4],int row,int col)
     int right = col - 1;
 
     for (int i = left; i <= right; i++)
-            cout << arr2[top][i] << " ";
-        top++;
+        cout << arr2[top][i] << " ";
+    top++;
 
-        // Right Column
-        for (int i = top; i <= bottom; i++)
-            cout << arr2[i][right] << " ";
-        right--;
+    // Right Column
+    for (int i = top; i <= bottom; i++)
+        cout << arr2[i][right] << " ";
+    right--;
 
-        // Bottom Row
-        if (top <= bottom)
-        {
-            for (int i = right; i >= left; i--)
-                cout << arr2[bottom][i] << " ";
-            bottom--;
-        }
-
-        // Left Column
-        if (left <= right)
-        {
-            for (int i = bottom; i >= top; i--)
-                cout << arr2[i][left] << " ";
-            left++;
-        }
+    // Bottom Row
+    if (top <= bottom)
+    {
+        for (int i = right; i >= left; i--)
+            cout << arr2[bottom][i] << " ";
+        bottom--;
     }
+
+    // Left Column
+    if (left <= right)
+    {
+        for (int i = bottom; i >= top; i--)
+            cout << arr2[i][left] << " ";
+        left++;
+    }
+}
 
 int main()
 {
@@ -114,10 +114,10 @@ int main()
         {3, 16, 9, 7}};
     // calprint(arr);
     // maxprint(arr);
-   cout<< "Wave Shape: " << endl;
-   shape(arr2);
-   cout << "" << endl;
-   cout<< "Spiral Shape: " << endl;
-  spiralprint(arr2);
+    cout << "Wave Shape: " << endl;
+    shape(arr2);
+    cout << "" << endl;
+    cout << "Spiral Shape: " << endl;
+    spiralprint(arr2);
     return 0;
 }
