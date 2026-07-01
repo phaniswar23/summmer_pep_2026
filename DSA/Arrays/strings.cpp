@@ -7,7 +7,7 @@ string reverse(string s)
     int e = s.size() - 1;
     while (s < e)
     {
-        swap
+        swap(str[s],str[e])
     }
     
     
