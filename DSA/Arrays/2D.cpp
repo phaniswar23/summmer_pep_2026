@@ -72,7 +72,10 @@ void shape(int arr[][4])
 }
 void spiralprint(int arr2[4][4],int row,int col)
 {
-    
+    int top = 0;
+    int bottom = row - 1;
+    int left = 0;
+    int right = col - 1;
 }
 int main()
 {
