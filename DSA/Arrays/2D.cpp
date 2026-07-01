@@ -90,6 +90,7 @@ void spiralprint(int arr2[4][4], int row, int col)
         {
             cout << arr2[i][right] << " ";
         }
+        
 
         
     }
