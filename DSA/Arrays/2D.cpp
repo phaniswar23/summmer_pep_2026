@@ -10,9 +10,10 @@ bool search(int arr[][3],int row,int col,int target)
             cout << arr[i][j]  << " ";
             }
         }
-            
+
         
     }
+    return false;
 }
 int main(){
     
