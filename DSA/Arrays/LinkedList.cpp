@@ -16,7 +16,7 @@ class Node
 void insertAtEnd(Node* &head,int val)
 {
     Node* node = new Node(val);
-    Node* temp = head
+    Node* temp = head->next;
 }
 int main(){
     Node* head;
