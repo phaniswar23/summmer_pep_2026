@@ -48,7 +48,8 @@ void printevenlist(Node* head)
 }
 void insertAtPosition(Node* &head,int val)
 {
-    Node* node = new Node(val)
+    Node* node = new Node(val);
+    
 }
 int main(){
     Node* head = new Node(10);
