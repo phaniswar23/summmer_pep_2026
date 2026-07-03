@@ -28,7 +28,7 @@ void insertAtEnd(Node* &head,int val)
     }
     temp->next = node;
 }
-void insertAtbeg
+void insertAtBeg()
 
 int main(){
     Node* head;
