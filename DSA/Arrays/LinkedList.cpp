@@ -37,7 +37,7 @@ void insertAtBeg(Node* &head,int val)
 }
 void printlist(Node* head)
 {
-    Node
+    Node* node = new Node(val)
     while (head != NULL)
     {
         if(head->data % 2 == 0)
