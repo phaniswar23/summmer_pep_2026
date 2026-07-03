@@ -30,6 +30,9 @@ void insertAtEnd(Node* &head,int val)
 }
 
 void insertAtBeg(Node* &head,int val)
+{
+    
+}
 
 int main(){
     Node* head;
