@@ -35,7 +35,7 @@ void insertAtBeg(Node* &head,int val)
     head = node;
     node->next = head;
 }
-void printlist(Node)
+void printlist(Node* )
 int main(){
     Node* head;
     
