@@ -16,6 +16,6 @@ class Node
 
 int main(){
     Node* node1 = new Node(1);
-    Node* node1 = new Node(1);
+    Node* nod1 = new Node(1);
     return 0;
 }
