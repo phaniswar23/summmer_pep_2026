@@ -21,7 +21,7 @@ void insertAtEnd(Node* &head,int val)
     {
         temp = temp->next;
     }
-    temp
+    temp->next = node;
 }
 int main(){
     Node* head;
