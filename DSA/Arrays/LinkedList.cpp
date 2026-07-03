@@ -31,7 +31,7 @@ void insertAtEnd(Node* &head,int val)
 
 void insertAtBeg(Node* &head,int val)
 {
-    Node* node = new Node(val)
+    Node* node = new Node(val);
 }
 
 int main(){
