@@ -45,9 +45,6 @@ void printevenlist(Node* head)
         temp = temp->next;
     }
     cout << "NULL" << endl;
-    
-    
-    
 }
 int main(){
     Node* head = new Node(10);
