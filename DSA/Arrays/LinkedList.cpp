@@ -53,7 +53,7 @@ void insertAtPosition(Node* &head,int pos,int val)
     {
         node->next = head;
         head = node;
-        re
+        return
     }
     Node* temp = head;
 
