@@ -39,7 +39,7 @@ void printevenlist(Node* head,int val)
 {
     Node* node = new Node(val);
     Node* temp = head;
-    while (temp-next != NULL)
+    while (temp->next != NULL)
     {
         if(head->data % 2 == 0)
         {
