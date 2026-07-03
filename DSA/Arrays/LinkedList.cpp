@@ -37,7 +37,7 @@ void insertAtBeg(Node* &head,int val)
 }
 void printlist(Node* head)
 {
-    while (t)
+    while (temp != )
     {
         /* code */
     }
