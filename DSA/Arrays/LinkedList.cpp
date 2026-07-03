@@ -6,7 +6,7 @@ class Node
     public:
     int data;
     Node* next;
-}
+};
 
 int main(){
     Node* head = new Node();
