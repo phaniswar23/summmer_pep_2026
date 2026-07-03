@@ -17,7 +17,7 @@ void insertAtEnd(Node* &head,int val)
 {
     Node* node = new Node(val);
     Node* temp = head;
-    
+    temp
 }
 int main(){
     Node* head;
