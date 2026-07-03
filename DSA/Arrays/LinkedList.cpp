@@ -13,7 +13,7 @@ class Node
         next = NULL;
     }
 };
-void insertAT
+void insertAtend
 int main(){
     Node* node1 = new Node(1);
     Node* node2 = new Node(2);
