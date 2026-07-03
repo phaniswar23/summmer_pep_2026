@@ -41,7 +41,7 @@ void printevenlist(Node* head)
     Node* temp = head;
     while (temp != NULL)
     {
-        /* code */
+        cout << temp->data
     }
     
     
