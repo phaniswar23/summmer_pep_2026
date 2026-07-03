@@ -9,6 +9,6 @@ class Node
 }
 
 int main(){
-    Node* head = 
+    Node* head = new Node();
     return 0;
 }
