@@ -14,6 +14,6 @@ class Node
 };
 
 int main(){
-    Node* head = new Node();
+    Node* head = new Node(1);
     return 0;
 }
