@@ -50,7 +50,7 @@ void insertAtPosition(Node* &head,int val)
 {
     Node* node = new Node(val);
     Node* temp = head;
-    for (int i = 0; i < pos - ; i++)
+    for (int i = 0; i < pos - 1; i++)
     {
         /* code */
     }
