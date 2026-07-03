@@ -52,7 +52,8 @@ void insertAtPosition(Node* &head,int pos,int val)
     if(pos == 1)
     {
         node->next = head;
-        head = node
+        head = node;
+        re
     }
     Node* temp = head;
 
