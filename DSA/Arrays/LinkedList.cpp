@@ -33,7 +33,6 @@ void insertAtBeg(Node* &head,int val)
 {
     Node* node = new Node(val);
     node->next = head;
-    head = node;
 }
 
 int main(){
