@@ -44,6 +44,7 @@ void printlist(Node* head,int val)
         {
             cout << node->data;
         }
+        
     }
     
 }
