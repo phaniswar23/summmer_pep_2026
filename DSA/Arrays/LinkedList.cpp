@@ -41,7 +41,7 @@ void printlist(Node* head)
     {
         if(head->data % 2 == 0)
         {
-            cout << temp
+            cout << temp->data
         }
     }
     
