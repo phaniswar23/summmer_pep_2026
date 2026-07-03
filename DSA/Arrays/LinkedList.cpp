@@ -39,14 +39,7 @@ void printevenlist(Node* head)
 {
     
     Node* temp = head;
-    while (temp->next != NULL)
-    {
-        if(head->data % 2 == 0)
-        {
-            cout << node->data;
-        }
-        node->next;
-    }
+    
     
 }
 int main(){
