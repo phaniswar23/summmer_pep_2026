@@ -39,7 +39,7 @@ void printlist(Node* head)
 {
     while (temp != NULL)
     {
-        /* code */
+        
     }
     
 }
