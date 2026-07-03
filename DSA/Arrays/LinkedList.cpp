@@ -44,7 +44,7 @@ void printevenlist(Node* head)
         cout << temp->data << "->";
         temp = temp->next;
     }
-    cout << "NULL" << end
+    cout << "NULL" << endl;
     
     
 }
