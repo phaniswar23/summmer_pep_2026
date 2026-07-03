@@ -49,7 +49,7 @@ void printevenlist(Node* head,int val)
     
 }
 int main(){
-    Node* head;
+    Node* head = new Node(10);
     
     return 0;
 }
