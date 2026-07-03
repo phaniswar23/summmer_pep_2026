@@ -37,7 +37,7 @@ void insertAtBeg(Node* &head,int val)
 }
 void printevenlist(Node* head,int val)
 {
-    Node* node = new Node(val);
+    
     Node* temp = head;
     while (temp->next != NULL)
     {
