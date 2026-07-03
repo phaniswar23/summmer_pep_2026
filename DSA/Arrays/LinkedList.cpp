@@ -35,7 +35,7 @@ void insertAtBeg(Node* &head,int val)
     head = node;
     node->next = head;
 }
-void printevenlist(Node* head,int val)
+void printevenlist(Node* head)
 {
     
     Node* temp = head;
