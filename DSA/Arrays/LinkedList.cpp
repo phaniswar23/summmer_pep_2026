@@ -46,7 +46,7 @@ void printevenlist(Node* head)
     }
     cout << "NULL" << endl;
 }
-void insertAtPosition(Node* &head,int val)
+void insertAtPosition(Node* &head,int pos,int val)
 {
     Node* node = new Node(val);
     Node* temp = head;
