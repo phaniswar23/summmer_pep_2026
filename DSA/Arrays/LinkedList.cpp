@@ -19,7 +19,7 @@ void insertAtEnd(Node* &head,int val)
     if(head == NULL)
     {
         head = node;
-        return
+        return;
     }
     Node* temp = head;
     while(temp->next != NULL)
