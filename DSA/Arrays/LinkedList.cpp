@@ -9,6 +9,6 @@ class Node
 }
 
 int main(){
-    
+    Node
     return 0;
 }
