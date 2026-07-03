@@ -39,7 +39,10 @@ void printlist(Node* head)
 {
     while (head != NULL)
     {
-        if(head->dat )
+        if(head->data % 2 == 0)
+        {
+            
+        }
     }
     
 }
