@@ -18,7 +18,7 @@ void insertAtEnd()
 
 }
 int main(){
-    Node* head
+    Node* head;
     node1->next = node2;
     return 0;
 }
