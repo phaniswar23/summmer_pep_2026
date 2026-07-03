@@ -10,6 +10,7 @@ class Node
     Node(int val)
     {
         data = val;
+        
     }
 };
 
