@@ -5,7 +5,7 @@ class Node
 {
     public:
     int data;
-    Node* next;
+    Node* next
 }
 
 int main(){
