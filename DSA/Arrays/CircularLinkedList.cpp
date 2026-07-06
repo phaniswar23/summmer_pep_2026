@@ -34,10 +34,11 @@ void insertAtEnd(Node* &head,int val)
 }
 void insertAtBeg(Node* &head,int val)
 {
+    Node* newNode = new Node(val);
     if(head == NULL) return;
     Node* temp = head;
     head = val;
-    
+
 }
 int main(){
     
