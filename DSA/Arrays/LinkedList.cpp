@@ -109,7 +109,7 @@ void deleteNodeatLast(Node* &head)
 
 void deleteAtBeg(Node* &head)
 {
-    
+    Node* temp = head;
 }
 
 // Print Linked List
