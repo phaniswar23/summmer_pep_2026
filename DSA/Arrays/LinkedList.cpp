@@ -69,7 +69,6 @@ void deleteNodeatLast(Node &head)
 {
     Node* temp = head;
     while (temp->next-next != NULL)
-    
     {
         /* code */
     }
