@@ -43,8 +43,7 @@ void DeleteAtBeg(Node* &head)
 {
     if(head == NULL)
         return;
-
-    // Only one node
+        
     if(head->next == head)
     {
         delete head;
