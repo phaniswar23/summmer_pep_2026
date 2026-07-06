@@ -49,6 +49,7 @@ void DeleteAtBeg(Node* &head)
         temp = temp->next;
     }
     
+    
 }
 int main(){
     
