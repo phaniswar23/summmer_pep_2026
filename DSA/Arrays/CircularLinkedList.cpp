@@ -20,7 +20,7 @@ void insertAtEnd(Node* &head,int val)
     {
         head = newNode;
         head->next = head;
-        re
+        return;
     }
     Node* temp = head;
     
