@@ -72,6 +72,7 @@ void deleteNodeatLast(Node* &head)
     {
         temp = temp->next;
     }
+    delete temp
     
 }
 int main(){
