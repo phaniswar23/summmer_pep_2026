@@ -76,6 +76,7 @@ void deleteNodeatLast(Node* &head)
     temp->next = NULL;
     
 }
+
 int main(){
     Node* head = new Node(10);
     
