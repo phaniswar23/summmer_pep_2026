@@ -43,6 +43,11 @@ void DeleteAtBeg(Node* &head)
 {
     Node* temp = head;
     head = head->next;
+    delete temp;
+    while (condition)
+    {
+        /* code */
+    }
     
 }
 int main(){
