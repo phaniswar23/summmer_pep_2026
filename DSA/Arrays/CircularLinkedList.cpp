@@ -46,7 +46,7 @@ void DeleteAtBeg(Node* &head)
     delete temp;
     while (temp != head)
     {
-        
+        temp = temp->next;
     }
     
 }
