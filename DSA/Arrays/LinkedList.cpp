@@ -157,7 +157,6 @@ int main()
     printList(head);
     
     deleteAtBeg(head);
-
     cout << "After Delete First Node: ";
     printList(head);
     return 0;
