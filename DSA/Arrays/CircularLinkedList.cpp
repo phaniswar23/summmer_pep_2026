@@ -32,7 +32,10 @@ void insertAtEnd(Node* &head,int val)
     newNode->next = head;
     
 }
-void insertAtBeg
+void insertAtBeg(Node* head)
+{
+    if(head == NULL) return 
+}
 int main(){
     
     return 0;
