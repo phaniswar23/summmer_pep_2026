@@ -41,7 +41,7 @@ void insertAtBeg(Node* &head,int val)
 }
 void DeleteAtBeg(Node* &head)
 {
-    
+    Node
 }
 int main(){
     
