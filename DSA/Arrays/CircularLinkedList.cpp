@@ -35,7 +35,8 @@ void insertAtEnd(Node* &head,int val)
 void insertAtBeg(Node* &head,int val)
 {
     if(head == NULL) return;
-    while(temp)
+    Node* temp = head;
+    
 }
 int main(){
     
