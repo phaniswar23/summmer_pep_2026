@@ -155,7 +155,7 @@ int main()
 
     cout << "After Delete Last Node: ";
     printList(head);
-
+    de
     cout << "After Delete First Node: ";
     printList(head);
     return 0;
