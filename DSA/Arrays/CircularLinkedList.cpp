@@ -8,6 +8,7 @@ class Node
     Node* next;
     Node(int val)
     {
+        data = val;
         
     }
 }
