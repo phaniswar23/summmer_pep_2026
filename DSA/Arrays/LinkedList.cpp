@@ -156,7 +156,7 @@ int main()
     cout << "After Delete Last Node: ";
     printList(head);
     
-    deleteAtBeg(Node* &head)
+    deleteAtBeg(Node* &head);
 
     cout << "After Delete First Node: ";
     printList(head);
