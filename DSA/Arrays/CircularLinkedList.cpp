@@ -41,15 +41,28 @@ void insertAtBeg(Node* &head,int val)
 }
 void DeleteAtBeg(Node* &head)
 {
+    if(head == NULL)
+        return;
+
+    // Only one node
+    if(head->next == head)
+    {
+        delete head;
+        head = NULL;
+        return;
+    }
+
     Node* temp = head;
-    head = head->next;
-    delete temp;
-    while (temp != head)
+
+    while(temp->next != head)
     {
         temp = temp->next;
     }
+
+    Node* first = head;
+    head = head->next;
     temp->next = head;
-    
+    delete first;
 }
 int main(){
     
