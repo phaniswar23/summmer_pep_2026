@@ -45,7 +45,6 @@ void DeleteAtBeg(Node* &head)
     head = head->next;
     delete temp;
     while (temp != head)
-    {}
     {
         /* code */
     }
