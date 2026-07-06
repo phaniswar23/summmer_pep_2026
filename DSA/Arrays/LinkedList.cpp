@@ -106,7 +106,7 @@ void deleteNodeatLast(Node* &head)
     delete temp->next;
     temp->next = NULL;
 }
-//Delete at Beg
+//Delete at Beginning
 void deleteAtBeg(Node* &head)
 {
     if(head == NULL) return ;
