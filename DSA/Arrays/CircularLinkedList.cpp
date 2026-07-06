@@ -18,7 +18,8 @@ void insertAtEnd(Node* &head,int val)
     Node* newNode = new Node(val);
     if(head == NULL)
     {
-        head = 
+        head = node;
+        
     }
     Node* temp = head;
     
