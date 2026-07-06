@@ -6,14 +6,14 @@ class Node
     public:
     int data;
     Node* next;
-    
+
     Node(int val)
     {
         data = val;
         next = NULL;
     }
 };
-
+void insertAtEnd
 int main(){
     
     return 0;
