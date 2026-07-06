@@ -21,9 +21,6 @@ void insertAtEnd(Node* &head,int val)
     {
 
     }
-    {
-        /* code */
-    }
     
 }
 int main(){
