@@ -37,7 +37,7 @@ void insertAtBeg(Node* &head,int val)
     Node* newNode = new Node(val);
     if(head == NULL) return;
     Node* temp = head;
-    head = val;
+    head = newNode;
 
 }
 int main(){
