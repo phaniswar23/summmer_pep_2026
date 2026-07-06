@@ -3,7 +3,7 @@ using namespace std;
 
 class Node
 {
-    public:
+public:
     int data;
     Node* next;
 
@@ -13,73 +13,139 @@ class Node
         next = NULL;
     }
 };
-void insertAtEnd(Node* &head,int val)
+
+// Insert at End
+void insertAtEnd(Node* &head, int val)
 {
     Node* node = new Node(val);
+
     if(head == NULL)
     {
         head = node;
         return;
     }
+
     Node* temp = head;
+
     while(temp->next != NULL)
     {
         temp = temp->next;
     }
+
     temp->next = node;
 }
 
-void insertAtBeg(Node* &head,int val)
+// Insert at Beginning
+void insertAtBeg(Node* &head, int val)
 {
     Node* node = new Node(val);
-    head = node;
+
     node->next = head;
+    head = node;
 }
-void printevenlist(Node* head)
+
+// Insert at Position
+void insertAtPosition(Node* &head, int pos, int val)
 {
-    
-    Node* temp = head;
-    while (temp != NULL)
+    if(pos <= 0)
     {
-        cout << temp->data << "->";
-        temp = temp->next;
+        cout << "Invalid Position" << endl;
+        return;
     }
-    cout << "NULL" << endl;
-}
-void insertAtPosition(Node* &head,int pos,int val)
-{
+
     Node* node = new Node(val);
+
     if(pos == 1)
     {
         node->next = head;
         head = node;
         return;
     }
+
     Node* temp = head;
 
-    for (int i = 1; i < pos - 1 && temp != NULL; i++)
+    for(int i = 1; i < pos - 1 && temp != NULL; i++)
     {
         temp = temp->next;
     }
+
+    if(temp == NULL)
+    {
+        cout << "Invalid Position" << endl;
+        delete node;
+        return;
+    }
+
     node->next = temp->next;
     temp->next = node;
 }
 
+// Delete Last Node
 void deleteNodeatLast(Node* &head)
 {
+    if(head == NULL)
+    {
+        cout << "List is Empty" << endl;
+        return;
+    }
+
+    if(head->next == NULL)
+    {
+        delete head;
+        head = NULL;
+        return;
+    }
+
     Node* temp = head;
-    if(head == NULL) return;
-    while (temp->next->next != NULL)
+
+    while(temp->next->next != NULL)
     {
         temp = temp->next;
     }
+
     delete temp->next;
     temp->next = NULL;
-    
 }
 
-int main(){
-    Node* head = new Node(10);
-    
+// Print Linked List
+void printList(Node* head)
+{
+    Node* temp = head;
+
+    while(temp != NULL)
+    {
+        cout << temp->data << " -> ";
+        temp = temp->next;
+    }
+
+    cout << "NULL" << endl;
+}
+
+int main()
+{
+    Node* head = NULL;
+
+    insertAtEnd(head, 10);
+    insertAtEnd(head, 20);
+    insertAtEnd(head, 30);
+
+    cout << "After Insert at End: ";
+    printList(head);
+
+    insertAtBeg(head, 5);
+
+    cout << "After Insert at Beginning: ";
+    printList(head);
+
+    insertAtPosition(head, 3, 15);
+
+    cout << "After Insert at Position 3: ";
+    printList(head);
+
+    deleteNodeatLast(head);
+
+    cout << "After Delete Last Node: ";
+    printList(head);
+
     return 0;
 }
