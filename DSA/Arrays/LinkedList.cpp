@@ -64,6 +64,7 @@ void insertAtPosition(Node* &head,int pos,int val)
     node->next = temp->next;
     temp->next = node;
 }
+
 int main(){
     Node* head = new Node(10);
     
