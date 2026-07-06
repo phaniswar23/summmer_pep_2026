@@ -13,7 +13,7 @@ class Node
         next = NULL;
     }
 };
-void insertAtEnd(Node* )
+void insertAtEnd(Node* &head,int )
 int main(){
     
     return 0;
