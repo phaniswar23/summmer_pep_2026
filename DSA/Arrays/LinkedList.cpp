@@ -107,7 +107,7 @@ void deleteNodeatLast(Node* &head)
     temp->next = NULL;
 }
 
-
+void deleteAtBeg(Node)
 
 // Print Linked List
 void printList(Node* head)
