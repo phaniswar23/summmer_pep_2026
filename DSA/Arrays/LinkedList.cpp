@@ -109,6 +109,7 @@ void deleteNodeatLast(Node* &head)
 
 void deleteAtBeg(Node* &head)
 {
+    if(head == NULL) 
     Node* temp = head;
 }
 
