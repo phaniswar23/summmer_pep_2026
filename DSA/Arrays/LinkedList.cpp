@@ -68,7 +68,7 @@ void insertAtPosition(Node* &head,int pos,int val)
 void deleteNodeatLast(Node* &head)
 {
     Node* temp = head;
-    while (temp->next-next != NULL)
+    while (temp->next->next != NULL)
     {
         
     }
