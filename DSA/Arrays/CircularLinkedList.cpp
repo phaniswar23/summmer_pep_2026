@@ -17,6 +17,10 @@ void insertAtEnd(Node* &head,int val)
 {
     Node* newNode = new Node(val);
     Node* temp = head;
+    while (temp->head != )
+    {
+        /* code */
+    }
     
 }
 int main(){
