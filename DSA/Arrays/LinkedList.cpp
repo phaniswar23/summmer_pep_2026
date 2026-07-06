@@ -67,7 +67,7 @@ void insertAtPosition(Node* &head,int pos,int val)
 
 void deleteNodeatLast(Node &head)
 {
-    Node
+    Node* temp =h
 }
 int main(){
     Node* head = new Node(10);
