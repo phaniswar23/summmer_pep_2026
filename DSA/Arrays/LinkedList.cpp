@@ -116,6 +116,8 @@ void deleteAtBeg(Node* &head)
     delete temp;
 }
 
+
+
 // Print Linked List
 void printList(Node* head)
 {
