@@ -117,7 +117,7 @@ void deleteAtBeg(Node* &head)
 }
 
 //Delete at Pos
-void deleteAtPos(Node)
+void deleteAtPos(Node* &head,)
 
 // Print Linked List
 void printList(Node* head)
