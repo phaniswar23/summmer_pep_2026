@@ -11,7 +11,7 @@ class Node
         data = val;
         next = NULL;
     }
-}
+};
 
 int main(){
     
