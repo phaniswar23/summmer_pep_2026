@@ -110,8 +110,9 @@ void deleteNodeatLast(Node* &head)
 void deleteAtBeg(Node* &head)
 {
     if(head == NULL) return ;
-    
+
     Node* temp = head;
+    
 }
 
 // Print Linked List
