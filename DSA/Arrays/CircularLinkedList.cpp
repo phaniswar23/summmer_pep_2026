@@ -48,7 +48,7 @@ void DeleteAtBeg(Node* &head)
     {
         temp = temp->next;
     }
-    temp->next = 
+    temp->next = hr
     
 }
 int main(){
