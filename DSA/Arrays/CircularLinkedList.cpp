@@ -22,7 +22,7 @@ void insertAtEnd(Node* &head,int val)
         temp = temp->next;
     }
     temp->next = newNode;
-    newNode->next = 
+    newNode->next = head;
     
 }
 int main(){
