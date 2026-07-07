@@ -185,7 +185,7 @@ if(temp->data >= key)
 {
 prev = NULL;
 temp =head;
-
+p
 }
 temp = temp->next
 }
