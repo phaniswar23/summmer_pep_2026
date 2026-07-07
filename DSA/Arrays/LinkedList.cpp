@@ -183,6 +183,7 @@ while(temp != NULL)
 {
 if(temp->data >= key)
 {
+prev = NULL;
 
 }
 temp = temp->next
