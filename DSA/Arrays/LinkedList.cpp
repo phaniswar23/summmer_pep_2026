@@ -170,6 +170,7 @@ int main()
 /*
 Insert at beg 
 Node* temp = haed;
+Node* newNode = new Node(key)
 if(temp->data <= key)
 {
 newNode->next
