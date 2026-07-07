@@ -168,5 +168,5 @@ int main()
     return 0;
 }
 /*
-Insert at 
+Insert at beg 
 */
