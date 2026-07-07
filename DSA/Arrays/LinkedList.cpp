@@ -177,7 +177,8 @@ newNode->next = head;
 head = node;
 Insert AT END
 temp->next = newNode;
-newNode
+newNode->next = NULL
+Insert at middle
 while(temp != NULL)
 {
 if()
