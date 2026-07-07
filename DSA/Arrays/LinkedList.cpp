@@ -181,7 +181,7 @@ newNode->next = NULL
 Insert at middle
 while(temp != NULL)
 {
-if()
+if(temp->next )
 }
 }
 */
