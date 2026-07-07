@@ -181,7 +181,7 @@ newNode->next = NULL
 Insert at middle
 while(temp != NULL)
 {
-if(temp->next >= key)
+if(temp->data >= key)
 {
 
 }
