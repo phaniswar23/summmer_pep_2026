@@ -185,6 +185,7 @@ if(temp->data >= key)
 {
 
 }
+temp = temp->next
 }
 }
 */
