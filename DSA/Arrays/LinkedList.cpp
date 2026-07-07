@@ -174,6 +174,7 @@ Node* newNode = new Node(key);
 if(temp->data <= key)
 {
 newNode->next = head;
-hea
+head = node;
+while(temp != NUL)
 }
 */
