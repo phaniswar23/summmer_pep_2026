@@ -184,6 +184,7 @@ while(temp != NULL)
 if(temp->data >= key)
 {
 prev = NULL;
+temp =head;
 
 }
 temp = temp->next
