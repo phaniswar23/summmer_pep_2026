@@ -172,6 +172,6 @@ Insert at beg
 Node* temp = haed;
 if(temp->data <= key)
 {
-newNode
+newNode->next
 }
 */
