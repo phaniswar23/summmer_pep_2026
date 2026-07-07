@@ -169,5 +169,5 @@ int main()
 }
 /*
 Insert at beg 
-Node
+Node* temp = 
 */
