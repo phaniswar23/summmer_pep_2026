@@ -175,6 +175,8 @@ if(temp->data <= key)
 {
 newNode->next = head;
 head = node;
+Insert AT END
+
 while(temp != NULL)
 {
 if()
