@@ -170,5 +170,5 @@ int main()
 /*
 Insert at beg 
 Node* temp = haed;
-
+if(temp)
 */
