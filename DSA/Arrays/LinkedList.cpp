@@ -150,7 +150,7 @@ int main()
     insertAtBeg(head, 5);
 
     cout << "After Insert at Beginning: ";
-    printList(head);
+    
 
     insertAtPosition(head, 3, 15);
 
