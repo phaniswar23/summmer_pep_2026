@@ -8,5 +8,6 @@ part - 1 -> detect if loop exits
         if fast and slow becomes equal , loop exists
 
 part 2 -> if loop exists, find the starting node
-re init slow at head again,keep fast at 
+re init slow at head again,keep fast at same place
+slove slow 
 */
