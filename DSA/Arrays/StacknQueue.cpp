@@ -24,7 +24,7 @@ public:
     }
     void pop(int val)
     {
-        if()
+        if(top <= -1)
     }
 };
 
