@@ -9,7 +9,7 @@ class myStack
     int size;
     myStack(int size)
     {
-        thissize = size;
+        this>size = size;
         arr = new 
     }
 };
