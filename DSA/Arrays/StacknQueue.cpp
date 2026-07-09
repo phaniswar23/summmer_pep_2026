@@ -17,7 +17,7 @@ public:
     {
         if (top == size - 1)
         {
-            cout << "Stack Overflow" << endl;
+            cout << "Stack OverFlow" << endl;
         }
         top++;
         arr[top] = val;
