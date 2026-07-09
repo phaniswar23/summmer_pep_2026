@@ -8,6 +8,9 @@ class myStack
     int top;
     int size;
     myStack(int val)
+    {
+        
+    }
 };
 
 int main(){
