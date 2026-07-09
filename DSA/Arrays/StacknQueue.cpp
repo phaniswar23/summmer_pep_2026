@@ -5,6 +5,8 @@ class myStack
 {
     public:
     int* arr;
+    int top;
+    int size;
     
 };
 
