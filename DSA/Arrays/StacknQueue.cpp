@@ -10,6 +10,7 @@ class myStack
     myStack(int size)
     {
         this.size = size;
+        arr = new 
     }
 };
 
