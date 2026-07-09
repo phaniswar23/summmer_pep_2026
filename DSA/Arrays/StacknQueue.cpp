@@ -42,7 +42,7 @@ public:
     {
         if(top == -1)
         {
-            cout << "" << endl;
+            cout << "Stack is empty" << endl;
             
         }
     }
