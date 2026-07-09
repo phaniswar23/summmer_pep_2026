@@ -38,7 +38,7 @@ public:
         top--;
     }
 
-    int peek(int val`)
+    int peek(int val)
 
     
 
