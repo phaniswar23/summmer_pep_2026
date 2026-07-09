@@ -46,7 +46,7 @@ public:
             return;
         }
 
-        return arr[top];
+        cout <<  arr[top];
     }
 
     
