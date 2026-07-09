@@ -46,7 +46,7 @@ public:
             return;
         }
 
-        return 
+        return arr[top]
     }
 
     
