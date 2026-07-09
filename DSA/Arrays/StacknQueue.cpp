@@ -1,10 +1,10 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class myStack
 {
-    public:
-    int* arr;
+public:
+    int *arr;
     int top;
     int size;
     myStack(int size)
@@ -15,7 +15,7 @@ class myStack
     }
     void push(int val)
     {
-        if(top == size - 1)
+        if (top == size - 1)
         {
             cout << "Stack overflow" << endl;
         }
@@ -24,7 +24,8 @@ class myStack
     }
 };
 
-int main(){
-    
+int main()
+{
+
     return 0;
 }
