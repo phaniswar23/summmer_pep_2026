@@ -22,11 +22,12 @@ public:
         top++;
         arr[top] = val;
     }
+    void pop(int cal)
 };
 
 int main()
 {
     myStack s1(5);
     s1.push(1);
-    
+
 }
