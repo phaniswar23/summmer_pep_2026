@@ -16,7 +16,7 @@ class myStack
     void push(int val)
     {
         top++;
-        arr[top] = 
+        arr[top] = val;
     }
 };
 
