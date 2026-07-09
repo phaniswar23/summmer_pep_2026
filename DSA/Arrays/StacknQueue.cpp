@@ -26,6 +26,6 @@ public:
 
 int main()
 {
-
+    myStack
     return 0;
 }
