@@ -68,11 +68,6 @@ int main()
     s1.push(20);
     s1.push(30);
 
-    cout << "Top Element: " << s1.peek() << endl;
-
-    s1.pop();
-
-    cout << "Top Element: " << s1.peek() << endl;
 
     return 0;
 }
