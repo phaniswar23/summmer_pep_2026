@@ -40,7 +40,10 @@ public:
 
     int peek(int val)
     {
-        if(top)
+        if(top == -1)
+        {
+            
+        }
     }
 
     
