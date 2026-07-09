@@ -10,7 +10,8 @@ class myStack
     myStack(int size)
     {
         this->size = size;
-        arr = new int[size]
+        arr = new int[size];
+        
     }
 };
 
