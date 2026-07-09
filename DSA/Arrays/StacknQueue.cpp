@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class MyStack
+class yStack
 
 int main(){
     
