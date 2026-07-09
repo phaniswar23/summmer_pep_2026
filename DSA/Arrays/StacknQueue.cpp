@@ -54,10 +54,7 @@ public:
         return top == -1;
     }
 
-    bool isFull()
-    {
-        return top == size - 1;
-    }
+    
 };
 
 int main()
