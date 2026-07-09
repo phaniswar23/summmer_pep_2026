@@ -28,6 +28,7 @@ public:
         {
             cout << "Stack UnderFlow" << endl;
         }
+        free top
         top--;
     }
 };
