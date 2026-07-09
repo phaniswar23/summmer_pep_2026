@@ -17,7 +17,7 @@ class myStack
     {
         if(top == size - 1)
         {
-            cout << "Stack" << endl;
+            cout << "Stack overflow" << endl;
             
         }
         top++;
