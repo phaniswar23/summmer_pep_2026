@@ -13,7 +13,10 @@ class myStack
         arr = new int[size];
         top = -1;
     }
-    void push()
+    void push(int val)
+    {
+        
+    }
 };
 
 int main(){
