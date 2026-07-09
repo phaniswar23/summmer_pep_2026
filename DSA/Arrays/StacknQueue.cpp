@@ -16,6 +16,10 @@ class myStack
     void push(int val)
     {
         if(top == size - 1)
+        {
+            cout << "" << endl;
+            
+        }
         top++;
         arr[top] = val;
     }
