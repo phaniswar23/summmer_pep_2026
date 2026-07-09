@@ -17,8 +17,7 @@ class myStack
     {
         if(top == size - 1)
         {
-            cout << "Stack overflow" << endl;
-            
+            cout << "Stack overflow" << endl; 
         }
         top++;
         arr[top] = val;
