@@ -7,7 +7,7 @@ class myStack
     int* arr;
     int top;
     int size;
-    myStack(int *size)
+    myStack(int size)
     {
         size = this.size;
     }
