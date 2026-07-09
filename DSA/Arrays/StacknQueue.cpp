@@ -43,7 +43,7 @@ public:
         if(top == -1)
         {
             cout << "Stack is empty" << endl;
-            
+            ret
         }
     }
 
