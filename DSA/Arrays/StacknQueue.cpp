@@ -38,7 +38,7 @@ public:
         top--;
     }
 
-    
+    int peek
 
     
 
