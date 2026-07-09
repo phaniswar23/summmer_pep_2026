@@ -7,7 +7,7 @@ class myStack
     int* arr;
     int top;
     int size;
-    myStack(inr val)
+    myStack(int val)
 };
 
 int main(){
