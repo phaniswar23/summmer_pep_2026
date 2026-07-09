@@ -39,6 +39,9 @@ public:
     }
 
     int peek(int val)
+    {
+        if(top)
+    }
 
     
 
