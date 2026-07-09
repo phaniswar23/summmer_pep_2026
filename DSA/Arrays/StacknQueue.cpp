@@ -61,7 +61,7 @@ int main()
     s1.push(10);
     s1.push(20);
     s1.push(30);
-
+        cout << 
 
     return 0;
 }
