@@ -49,10 +49,7 @@ public:
         return arr[top];
     }
 
-    bool isEmpty()
-    {
-        return top == -1;
-    }
+    
 
     
 };
