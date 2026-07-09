@@ -27,5 +27,6 @@ public:
 int main()
 {
     myStack s1(5);
+    s1.push
     return 0;
 }
