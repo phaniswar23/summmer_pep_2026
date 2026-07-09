@@ -23,7 +23,9 @@ public:
         arr[top] = val;
     }
     void pop(int val)
-    {}
+    {
+        
+    }
 };
 
 int main()
