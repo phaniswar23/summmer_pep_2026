@@ -22,7 +22,8 @@ public:
         top++;
         arr[top] = val;
     }
-    void pop(int cal)
+    void pop(int val)
+    {}
 };
 
 int main()
