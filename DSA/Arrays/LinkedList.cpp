@@ -147,7 +147,7 @@ int main()
     cout << "After Insert at End: ";
     printList(head);
 
-   
+    insertAtBeg(head, 5);
 
     cout << "After Insert at Beginning: ";
     printList(head);
