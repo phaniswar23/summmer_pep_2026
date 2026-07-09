@@ -15,7 +15,7 @@ class myStack
     }
     void push(int val)
     {
-        if()
+        if(top == size - 1)
         top++;
         arr[top] = val;
     }
