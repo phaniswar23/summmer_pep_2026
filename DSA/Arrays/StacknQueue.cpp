@@ -4,7 +4,7 @@ using namespace std;
 class myStack
 {
     public:
-    int
+    int* bad_array_new_length
 };
 
 int main(){
