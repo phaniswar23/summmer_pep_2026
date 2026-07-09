@@ -11,7 +11,7 @@ class myStack
     {
         this->size = size;
         arr = new int[size];
-        top 
+        top = -1;
     }
 };
 
