@@ -9,7 +9,7 @@ class myStack
     int size;
     myStack(int size)
     {
-        size = size;
+        size = this.size;
     }
 };
 
