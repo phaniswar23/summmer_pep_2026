@@ -5,7 +5,7 @@ int main(){
     int fact  = 1 ;
     for (int i = 0; i < 4; i++)
     {
-        fact = n * fact;
+        fact = i * fact;
     }
     
     return 0;
