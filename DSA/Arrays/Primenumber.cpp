@@ -6,7 +6,7 @@ int main(){
     if(n == 2) return true;
     for(int i = 0;i <= n;i++)
     {
-        if(n %)
+        if(n % i == 0)
     }
     return 0;
 }
