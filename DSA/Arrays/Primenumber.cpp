@@ -13,7 +13,6 @@ if(n == 2) return true;
     }
 }
 int main(){
-    int n = 7;
     primeNumber(8);
     return 0;
 }
