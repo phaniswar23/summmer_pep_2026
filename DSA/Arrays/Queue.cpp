@@ -10,7 +10,8 @@ class MyQueue
     MyQueue(int size)
     {
         this->size = size;
-        arr = new in
+        arr = new int(size);
+        
     }
 };
 int main(){
