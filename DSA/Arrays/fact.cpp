@@ -7,6 +7,6 @@ int main(){
     {
         fact = i * fact;
     }
-    
+    cou
     return 0;
 }
