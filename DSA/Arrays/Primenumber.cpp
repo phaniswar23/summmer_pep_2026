@@ -15,7 +15,7 @@ bool primeNumber(int n)
         
         cout << num << endl;
     }
-    return true;
+   
     }
     
 
