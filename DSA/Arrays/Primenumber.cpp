@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    int n = 
+    int n = 2
     return 0;
 }
