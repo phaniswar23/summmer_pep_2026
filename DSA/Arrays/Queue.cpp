@@ -28,10 +28,22 @@ public:
         rear++;
         arr[rear] = val;
     }
-    void dequeue(int val)
+    void dequeue()
+{
+    if(front == -1 || front > rear)
     {
-        
+        cout << "Queue Underflow" << endl;
+        return;
     }
+
+    cout << "Deleted: " << arr[front] << endl;
+    front++;
+
+    if(front > rear)
+    {
+        front = rear = -1;
+    }
+}
 };
 int main()
 {
