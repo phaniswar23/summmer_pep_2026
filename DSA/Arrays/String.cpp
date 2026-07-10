@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
-void reverse
+void reverseString(string str)
+{
+    
+}
 int main(){
     
     return 0;
