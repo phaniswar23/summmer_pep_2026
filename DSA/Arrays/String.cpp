@@ -9,6 +9,7 @@ void reverseString(string str)
         while(str[i] != ' ' && i < str.length())
         {
             ans += str[i];
+            i++;
         }
     }
     
