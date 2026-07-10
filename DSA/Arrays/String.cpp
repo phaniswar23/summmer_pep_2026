@@ -11,7 +11,7 @@ void reverseString(string str)
             ans += str[i];
             i++;
         }
-        st.push(ans)
+        st.push(ans);
     }
     
 }
