@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int primeNumber(int n)
+int primeNumber()
 {
     for (int num = 1; num < 11; num++)
     {
