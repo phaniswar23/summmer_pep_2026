@@ -14,7 +14,7 @@ class MyQueue
         front = -1;
         rear = -1;
     }
-    voi
+    void enqueue
 };
 int main(){
     
