@@ -9,7 +9,7 @@ class MyQueue
     int size;
     MyQueue(int size)
     {
-        
+        this-
     }
 };
 int main(){
