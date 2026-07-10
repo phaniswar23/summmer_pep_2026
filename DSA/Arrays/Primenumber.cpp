@@ -13,6 +13,7 @@ bool primeNumber(int n)
             break;
         }
         
+        cout << num
     }
     return true;
     }
