@@ -29,21 +29,22 @@ public:
         arr[rear] = val;
     }
     void dequeue()
-{
-    if(front == -1 || front > rear)
     {
-        cout << "Queue Underflow" << endl;
-        return;
-    }
-    
-    front++;
-}
-int frontval()
-{
-    if(front == -1) return;
+        if (front == -1 || front > rear)
+        {
+            cout << "Queue Underflow" << endl;
+            return;
+        }
 
-    return arr[front];
-}
+        front++;
+    }
+    int frontval()
+    {
+        if (front == -1)
+            return;
+
+        return arr[front];
+    }
 };
 int main()
 {
