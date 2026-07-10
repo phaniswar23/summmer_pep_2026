@@ -39,6 +39,9 @@ public:
     front++;
 }
 void frontval()
+{
+    
+}
 };
 int main()
 {
