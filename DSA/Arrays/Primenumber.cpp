@@ -2,7 +2,7 @@
 using namespace std;
 bool primeNumber(int n)
 {
-    for (int i = 0; i < count; i++)
+    for (int num = 0; num < count; num++)
     {
         /* code */
     }
