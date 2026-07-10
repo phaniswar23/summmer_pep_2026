@@ -13,6 +13,10 @@ int main(){
         temp.push(st.top());
         st.pop();
     }
+    while (condition)
+    {
+        /* code */
+    }
     
     return 0;
 }
