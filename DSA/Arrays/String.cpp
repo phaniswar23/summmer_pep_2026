@@ -13,6 +13,10 @@ void reverseString(string str)
         }
         st.push(ans);
     }
+    while (st)
+    {
+        /* code */
+    }
     
 }
 int main(){
