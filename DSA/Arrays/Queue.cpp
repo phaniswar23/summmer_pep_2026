@@ -39,10 +39,6 @@ public:
     
     front++;
 
-    if(front > rear)
-    {
-        front = rear = -1;
-    }
 }
 };
 int main()
