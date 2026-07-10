@@ -42,7 +42,7 @@ int frontval()
 {
     if(front == -1) return;
 
-        return arr[front];
+    return arr[front];
 }
 };
 int main()
