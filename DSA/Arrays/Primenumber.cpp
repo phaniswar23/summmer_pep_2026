@@ -7,7 +7,7 @@ int primeNumber()
     if(num <= 1) continue;
     for(int i = 2;i * i <= num;i++)
     {
-        if(n % i == 0)
+        if(num % i == 0)
         {
             
             break;
