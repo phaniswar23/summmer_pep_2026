@@ -12,7 +12,7 @@ class MyQueue
         this->size = size;
         arr = new int(size);
         front = -1;
-        
+        rear = -1;
     }
 };
 int main(){
