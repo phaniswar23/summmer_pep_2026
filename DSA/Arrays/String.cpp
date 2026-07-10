@@ -2,7 +2,8 @@
 using namespace std;
 void reverseString(string str)
 {
-    stack<string> stl
+    stack<string> st;
+    
 }
 int main(){
     
