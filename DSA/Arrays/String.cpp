@@ -13,7 +13,7 @@ void reverseString(string str)
         }
         st.push(ans);
     }
-    while (!st.e)
+    while (!st.empty())
     {
         /* code */
     }
