@@ -18,6 +18,8 @@ void reverseString(string str)
         cout << st.top() << " ";
         st.pop();
     }
+    cout << "" << endl;
+    
     
 }
 int main(){
