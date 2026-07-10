@@ -3,6 +3,6 @@ using namespace std;
 
 int main(){
     int n = 7;
-    if(n == )
+    if(n == 1 || n == 2) return 
     return 0;
 }
