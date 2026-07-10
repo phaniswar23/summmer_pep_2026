@@ -38,6 +38,7 @@ public:
     
     front++;
 }
+
 };
 int main()
 {
