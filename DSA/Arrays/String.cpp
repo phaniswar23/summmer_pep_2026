@@ -5,7 +5,7 @@ void reverseString(string str)
     stack<string> st;
     for (int i = 0; i < str.length(); i++)
     {
-        /* code */
+        string ans = " "
     }
     
 }
