@@ -8,6 +8,7 @@ if(n == 2) return true;
         if(n % i == 0)
         {
             return false;
+            break;
         }
         
     }
