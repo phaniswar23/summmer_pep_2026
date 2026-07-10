@@ -15,7 +15,7 @@ int main(){
     }
     while (!temp.empty())
     {
-        /* code */
+        cout << 
     }
     
     return 0;
