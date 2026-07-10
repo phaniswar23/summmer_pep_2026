@@ -10,7 +10,7 @@ int main(){
         {
             return false;
         }
-        return truel
+        return true;
     }
     return 0;
 }
