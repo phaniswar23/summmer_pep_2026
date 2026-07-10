@@ -16,7 +16,7 @@ class MyQueue
     }
     void enqueue(int val)
     {
-        if(front )
+        if(front)
     }
 };
 int main(){
