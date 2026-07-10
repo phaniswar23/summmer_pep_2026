@@ -7,7 +7,7 @@ int main(){
     {
         fact = i * fact;
     }
-    cout << "" << endl;
+    cout << fact << endl;
     
     return 0;
 }
