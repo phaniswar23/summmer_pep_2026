@@ -14,6 +14,6 @@ if(n == 2) return true;
     return true;
 }
 int main(){
-    primeNumber(8);
+   cout << primeNumber(8);
     return 0;
 }
