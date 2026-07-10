@@ -16,7 +16,7 @@ int main(){
     while (!temp.empty())
     {
         cout << temp.top() << " ";
-        
+        temp.pop();
     }
     
     return 0;
