@@ -6,7 +6,7 @@ void reverseString(string str)
     for (int i = 0; i < str.length(); i++)
     {
         string ans = " ";
-        while(str[i] !)
+        while(str[i] != )
     }
     
 }
