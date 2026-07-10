@@ -16,7 +16,7 @@ void reverseString(string str)
     while (!st.empty())
     {
         cout << st.top() << " ";
-        
+        st.pop();
     }
     
 }
