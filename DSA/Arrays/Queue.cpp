@@ -28,7 +28,7 @@ public:
         rear++;
         arr[rear] = val;
     }
-    void de
+    void dequeue
 };
 int main()
 {
