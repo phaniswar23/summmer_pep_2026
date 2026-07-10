@@ -40,7 +40,7 @@ public:
     }
     int frontval()
     {
-        if (front == -1 )
+        if (front == -1 || front == rear)
             return;
 
         return arr[front];
