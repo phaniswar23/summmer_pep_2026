@@ -15,7 +15,7 @@ void reverseString(string str)
     }
     while (!st.empty())
     {
-        /* code */
+        cout << 
     }
     
 }
