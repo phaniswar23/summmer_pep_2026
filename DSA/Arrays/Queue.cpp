@@ -14,6 +14,7 @@ class MyQueue
         front = -1;
         rear = -1;
     }
+    
 };
 int main(){
     
