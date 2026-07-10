@@ -7,7 +7,7 @@ class MyQueue
     int front;
     int rear;
     int size;
-    MyQueue(int )
+    MyQueue(int siz)
 };
 int main(){
     
