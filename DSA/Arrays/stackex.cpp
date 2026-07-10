@@ -13,7 +13,7 @@ int main(){
         temp.push(st.top());
         st.pop();
     }
-    while (condition)
+    while (!temp.empty())
     {
         /* code */
     }
