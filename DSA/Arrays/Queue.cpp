@@ -15,9 +15,19 @@ class MyQueue
         rear = -1;
     }
     void enqueue(int val)
+{
+    if(rear == size - 1)
     {
-        if(front)
+        cout << "Queue Overflow" << endl;
+        return;
     }
+
+    if(front == -1)
+        front = 0;
+
+    rear++;
+    arr[rear] = val;
+}
 };
 int main(){
     
