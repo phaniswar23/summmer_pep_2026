@@ -41,7 +41,7 @@ public:
 int frontval()
 {
     if(front == -1) return;
-
+        
 }
 };
 int main()
