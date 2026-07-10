@@ -7,6 +7,7 @@ void reverseString(string str)
     {
         string ans = " ";
         while(str[i] != ' ' && i < str.length())
+        
     }
     
 }
