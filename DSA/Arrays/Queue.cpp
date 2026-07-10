@@ -4,7 +4,8 @@ class MyQueue
 {
     public:
     int *arr;
-    int 
+    int front;
+    int rear
 };
 int main(){
     
