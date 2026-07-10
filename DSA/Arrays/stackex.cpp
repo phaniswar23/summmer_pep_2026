@@ -10,7 +10,7 @@ int main(){
     st.push(30);
 
     while (!st.empty()) {
-        temp.push(st.top();
+        temp.push(st.top());
         st.pop();
     }
     return 0;
