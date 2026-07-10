@@ -40,18 +40,14 @@ public:
 
     void peek()
     {
-        if(top == -1)
+        if (top == -1)
         {
             cout << "Stack is empty" << endl;
             return;
         }
 
-        cout <<  arr[top];
+        cout << arr[top];
     }
-    
-    
-
-    
 };
 
 int main()
