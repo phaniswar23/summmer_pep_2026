@@ -1,8 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class MyQueue
 {
-    public:
+public:
     int *arr;
     int front;
     int rear;
@@ -15,21 +15,22 @@ class MyQueue
         rear = -1;
     }
     void enqueue(int val)
-{
-    if(rear == size - 1)
     {
-        cout << "Queue Overflow" << endl;
-        return;
+        if (rear == size - 1)
+        {
+            cout << "Queue Overflow" << endl;
+            return;
+        }
+
+        if (front == -1)
+            front = 0;
+
+        rear++;
+        arr[rear] = val;
     }
-
-    if(front == -1)
-        front = 0;
-
-    rear++;
-    arr[rear] = val;
-}
 };
-int main(){
-    
+int main()
+{
+
     return 0;
 }
