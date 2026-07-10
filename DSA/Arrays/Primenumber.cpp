@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int primeNumber(int n)
+bool primeNumber(int n)
 {
 if(n == 2) return true;
     for(int i = 0;i <= n;i++)
