@@ -32,7 +32,7 @@ public:
         if (top == -1)
         {
             cout << "Stack Underflow" << endl;
-            
+            return;
         }
 
         top--;
