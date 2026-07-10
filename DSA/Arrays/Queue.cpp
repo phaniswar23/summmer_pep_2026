@@ -3,7 +3,8 @@ using namespace std;
 class MyQueue
 {
     public:
-    int *bad_array_new_length
+    int *arr;
+    int 
 };
 int main(){
     
