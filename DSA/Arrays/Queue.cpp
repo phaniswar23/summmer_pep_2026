@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
-class MyQeue
+class MyQueue()
+{
+    
+}
 int main(){
     
     return 0;
