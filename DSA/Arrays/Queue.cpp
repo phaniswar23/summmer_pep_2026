@@ -28,7 +28,7 @@ public:
         rear++;
         arr[rear] = val;
     }
-    
+    void 
 };
 int main()
 {
