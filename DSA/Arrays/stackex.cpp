@@ -15,7 +15,8 @@ int main(){
     }
     while (!temp.empty())
     {
-        cout << 
+        cout << temp.top() << " ";
+        
     }
     
     return 0;
