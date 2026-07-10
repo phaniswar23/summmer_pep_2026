@@ -8,7 +8,6 @@ int main(){
     st.push(20);
     st.push(30);
 
-    //print
     while (!st.empty()) {
         cout << st.top() << " ";
         st.pop();
