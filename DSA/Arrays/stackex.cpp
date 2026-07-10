@@ -8,6 +8,7 @@ int main(){
     st.push(20);
     st.push(30);
 
+    //print stack
     
     return 0;
 }
