@@ -15,7 +15,7 @@ int primeNumber()
         
         cout << num << endl;
     }
-   
+
     }
     
 
