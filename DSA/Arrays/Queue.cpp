@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class MyQ
+class MyQeue
 int main(){
     
     return 0;
