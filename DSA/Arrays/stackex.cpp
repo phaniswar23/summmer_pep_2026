@@ -9,6 +9,9 @@ int main(){
     st.push(30);
 
     //print stack
-    
+    while (!st.empty()) {
+        cout << st.top() << " ";
+        st.pop();
+    }
     return 0;
 }
