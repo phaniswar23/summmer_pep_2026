@@ -14,6 +14,6 @@ if(n == 2) return true;
 }
 int main(){
     int n = 7;
-    
+    primeNumber()
     return 0;
 }
