@@ -21,6 +21,6 @@ int primeNumber()
 
 }
 int main(){
-   cout << primeNumber(3);
+   cout << primeNumber();
     return 0;
 }
