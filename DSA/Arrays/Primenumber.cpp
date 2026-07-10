@@ -14,6 +14,6 @@ if(n == 2) return true;
     return true;
 }
 int main(){
-   cout << primeNumber(2);
+   cout << primeNumber(3);
     return 0;
 }
