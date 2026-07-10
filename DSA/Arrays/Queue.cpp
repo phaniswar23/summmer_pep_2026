@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-class MyQueue()
+class MyQueue
 {
-    
+
 };
 int main(){
     
