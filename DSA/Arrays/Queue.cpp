@@ -40,7 +40,8 @@ public:
 }
 void frontval()
 {
-    if(front == -1) 
+    if(front == -1) return;
+    
 }
 };
 int main()
