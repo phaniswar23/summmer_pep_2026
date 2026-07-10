@@ -17,7 +17,7 @@ void reverseString(string str)
 }
 int main(){
     string s = "Hello World!"
-    void reverseString(string str)
+    reverseString(string str)
 
     return 0;
 }
