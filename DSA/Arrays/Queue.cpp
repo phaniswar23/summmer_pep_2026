@@ -6,6 +6,7 @@ class MyQueue
     int *arr;
     int front;
     int rear;
+    int size;
     
 };
 int main(){
