@@ -2,6 +2,11 @@
 using namespace std;
 bool primeNumber(int n)
 {
+    for (size_t i = 0; i < count; i++)
+    {
+        /* code */
+    }
+    
 if(n <= 1) continue;
     for(int i = 0;i * i <= n;i++)
     {
