@@ -35,7 +35,6 @@ public:
         cout << "Queue Underflow" << endl;
         return;
     }
-
     
     front++;
 
