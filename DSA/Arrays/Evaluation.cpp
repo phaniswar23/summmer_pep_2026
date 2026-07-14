@@ -45,7 +45,7 @@ int prefixEval(string s)
                 break;
             }
         }
-        int ans = st.top();
+        ans = st.top();
     }
     return ans;
 }
