@@ -25,6 +25,7 @@ int prefixEval(string s)
             int op1 = st.top();
             st.pop();
             int op2 = st.top();
+            st.pop();
         }
         
     }
