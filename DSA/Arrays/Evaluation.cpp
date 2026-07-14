@@ -14,6 +14,7 @@ int prefixEval(string s)
 
     stack<int>st;
     int n = s.length();
+    int ans = 0;
     for(int i = n - 1;i >= 0;i--)
     {
         if(s[i] >= '0' && s[i] <= '9')
