@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 
-int prefixEval
+int prefixEval(string s)
+{
+    
+}
 
 int main(){
     string s = "-+7+45+20";
