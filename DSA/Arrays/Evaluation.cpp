@@ -26,6 +26,16 @@ int prefixEval(string s)
             st.pop();
             int op2 = st.top();
             st.pop();
+
+            switch (expression)
+            {
+            case constant expression:
+                /* code */
+                break;
+            
+            default:
+                break;
+            }
         }
         
     }
