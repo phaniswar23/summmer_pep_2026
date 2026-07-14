@@ -27,7 +27,7 @@ int prefixEval(string s)
             int op2 = st.top();
             st.pop();
 
-            switch (expression)
+            switch (s[i])
             {
             case constant expression:
                 /* code */
