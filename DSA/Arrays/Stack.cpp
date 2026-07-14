@@ -19,7 +19,7 @@ public:
     {
         if (top == size - 1)
         {
-            cout << "Stack Overflow" << endl;
+           
             return;
         }
 
