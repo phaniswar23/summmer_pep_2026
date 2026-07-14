@@ -20,7 +20,7 @@ int prefixEval(string s)
         {
         st.push(s[i]);
         }
-        else if(s[i] == '+')
+        else if(s[i] == '+' || )
     }
 
 }
