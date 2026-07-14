@@ -16,7 +16,7 @@ int prefixEval(string s)
     int n = s.length();
     for(int i = n - 1;i  < 0;i--)
     {
-        st.push(s)
+        st.push(s[i])
     }
 }
 
