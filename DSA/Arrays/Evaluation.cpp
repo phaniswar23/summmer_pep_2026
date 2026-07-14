@@ -23,7 +23,8 @@ int prefixEval(string s)
         else if(s[i] == '+' || s[i] == '-' || s[i] == '*' || s[i] == '/' || s[i] == '%' || s[i] == '^')
         {
             int op1 = st.top();
-            
+            st.pop();
+            int op2 = st.top();
         }
     }
 
