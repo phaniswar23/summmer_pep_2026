@@ -14,7 +14,7 @@ int prefixEval(string s)
 
     stack<int>st;
     int n = s.length();
-    for(int i = 0;i )
+    for(int i = n;i )
 }
 
 int main(){
