@@ -35,7 +35,7 @@ int prefixEval(string s)
             case '-':
                 st.push(op1 - op2);
                 break;
-            case '+':
+            case '*':
                 st.push(op1 + op2);
                 break;
             default:
