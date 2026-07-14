@@ -23,7 +23,7 @@ public:
             return;
         }
 
-        top++;
+       
         arr[top] = val;
     }
 
