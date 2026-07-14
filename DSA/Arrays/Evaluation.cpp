@@ -4,7 +4,8 @@ using namespace std;
 int prefixEval(string s)
 {
     //Create a Stack
-    //Traverse 
+    //Traverse string come right to left
+    
 }
 
 int main(){
