@@ -19,6 +19,7 @@ int prefixEval(string s)
         if(s[i])
         {
         st.push(s[i]);
+        }
     }
 
 }
