@@ -7,7 +7,7 @@ int prefixEval(string s)
     //Traverse string come right to left
 
     //if(s[i])  is operand ->st.push
-    //else if it is operator->create twovariables
+    //else if it is operator->create two variables
 }
 
 int main(){
