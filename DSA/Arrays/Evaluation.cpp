@@ -10,6 +10,7 @@ int prefixEval(string s)
     //else if it is operator->create two variables to store two elements
     //pop them and evalute with operator,then push the resultant back into stack
     
+    //return last element 
 }
 
 int main(){
