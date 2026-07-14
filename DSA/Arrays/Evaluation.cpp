@@ -29,7 +29,7 @@ int prefixEval(string s)
 
             switch (s[i])
             {
-            case constant expression:
+            case '+':
                 /* code */
                 break;
             
