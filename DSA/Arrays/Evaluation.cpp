@@ -36,7 +36,7 @@ int prefixEval(string s)
                 st.push(op1 - op2);
                 break;
             case '*':
-                st.push(op1 + op2);
+                st.push(op1 * op2);
                 break;
             default:
                 break;
