@@ -5,7 +5,8 @@ int prefixEval(string s)
 {
     //Create a Stack
     //Traverse string come right to left
-    
+
+    //if(s[i])
 }
 
 int main(){
