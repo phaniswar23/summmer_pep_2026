@@ -19,7 +19,7 @@ int prefixEval(string s)
     {
         if(s[i] >= '0' && s[i] <= '9')
         {
-        st.push(s[i] = '0');
+        st.push(s[i] - '0');
         }
         else
         {
