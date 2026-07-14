@@ -13,7 +13,8 @@ int prefixEval(string s)
     //return last remaining element from stack;
 
     stack<int>st;
-    int n = 
+    int n = s.length();
+    for(int i = 0;i )
 }
 
 int main(){
