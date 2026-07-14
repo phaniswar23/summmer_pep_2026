@@ -16,7 +16,7 @@ int prefixEval(string s)
     int n = s.length();
     for(int i = n - 1;i >= 0;i--)
     {
-        if(s[i] >= '0' )
+        if(s[i] >= '0' && s[i] <= '9')
         {
         st.push(s[i]);
         }
