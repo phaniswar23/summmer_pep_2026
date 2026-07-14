@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int pref
+int prefix
 
 int main(){
     string s = "-+7+45+20";
