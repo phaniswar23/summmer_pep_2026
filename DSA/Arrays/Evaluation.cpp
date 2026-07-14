@@ -21,6 +21,9 @@ int prefixEval(string s)
         st.push(s[i]);
         }
         else if(s[i] == '+' || s[i] == '-' || s[i] == '*' || s[i] == '/' || s[i] == '%' || s[i] == '^')
+        {
+            
+        }
     }
 
 }
