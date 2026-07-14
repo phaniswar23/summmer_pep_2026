@@ -22,7 +22,7 @@ int prefixEval(string s)
         }
         else if(s[i] == '+' || s[i] == '-' || s[i] == '*' || s[i] == '/' || s[i] == '%' || s[i] == '^')
         {
-            int 
+            int op1 = 
         }
     }
 
