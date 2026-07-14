@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    strin
+    string 
     return 0;
 }
