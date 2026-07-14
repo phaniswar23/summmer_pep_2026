@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-    string 
+    string s = ""
     return 0;
 }
