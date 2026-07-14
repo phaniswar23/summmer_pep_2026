@@ -30,7 +30,7 @@ int prefixEval(string s)
             switch (s[i])
             {
             case '+':
-                /* code */
+                st.push()
                 break;
             
             default:
