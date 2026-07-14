@@ -53,5 +53,6 @@ int prefixEval(string s)
 
 int main(){
     string s = "-+7+45+20";
+    cout << prefixEval(s);
     return 0;
 }
