@@ -20,7 +20,7 @@ int prefixEval(string s)
         {
          st.push(s[i] = '0');
         }
-        else if(s[i] == '+' || s[i] == '-' || s[i] == '*' || s[i] == '/' || s[i] == '%' || s[i] == '^')
+        else
         {
             int op1 = st.top();
             st.pop();
