@@ -8,7 +8,7 @@ int prefixEval(string s)
 
     //if(s[i])  is operand ->st.push
     //else if it is operator->create two variables to store two elements
-    //pop them 
+    //pop them and evalute with operator
 }
 
 int main(){
