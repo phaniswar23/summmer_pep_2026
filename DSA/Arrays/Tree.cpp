@@ -36,8 +36,8 @@ void postorder(TreeNode *root)
     // base case
     if (root == NULL)
         return;
-    preorder(root->left);
-    preorder(root->right);
+     postorder(root->left);
+    postorder(root->right);
     cout << root->data << endl;
 }
 int main()
