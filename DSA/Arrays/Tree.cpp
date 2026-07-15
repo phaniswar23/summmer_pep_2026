@@ -7,7 +7,7 @@ class TreeNode
     TreeNode* right;
     TreeNode(int val)
     {
-        data = data;
+        data = val;
         left = nullptr;
         right = nullptr;
     }
