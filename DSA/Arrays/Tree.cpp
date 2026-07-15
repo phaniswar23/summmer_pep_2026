@@ -31,7 +31,7 @@ void inorder(TreeNode *root)
     cout << root->data << endl;
     preorder(root->right);
 }
-void inorder(TreeNode *root)
+void postorder(TreeNode *root)
 {
     // base case
     if (root == NULL)
