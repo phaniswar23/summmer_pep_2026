@@ -3,7 +3,7 @@ using namespace std;
 class TreeNode
 {
     int data;
-    Node* left;
+    TreeNode* left;
     Node* right;
     Node(int val)
     {
