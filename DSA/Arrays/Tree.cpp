@@ -17,7 +17,8 @@ void preorder(TreeNode* root)
     //base case
     if(root == NULL) return;
     cout << root->data << endl;
-    preorder(l)
+    preorder(root->left);
+    
 }
 int main(){
     
