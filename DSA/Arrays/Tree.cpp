@@ -10,7 +10,8 @@ class Node
     Node(int val)
     {
         data = data;
-        
+        left = nullptr;
+        right = nullptr;
     }
 };
 int main(){
