@@ -2,7 +2,7 @@
 using namespace std;
 
 
-class TreeStru
+class TreeStructure
 int main(){
     
     return 0;
