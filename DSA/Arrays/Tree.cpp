@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Node
+class TreeNode
 {
     int data;
     Node* left;
