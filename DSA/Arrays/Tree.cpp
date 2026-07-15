@@ -14,6 +14,7 @@ class TreeNode
 };
 void preorder(TreeNode* root)
 {
+    //base case
     
 }
 
