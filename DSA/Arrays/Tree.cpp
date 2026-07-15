@@ -9,7 +9,7 @@ class Node
     Node* right;
     Node(int val)
     {
-        data
+        data = data;
     }
 }
 int main(){
