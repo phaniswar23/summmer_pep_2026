@@ -12,7 +12,7 @@ class TreeNode
         right = nullptr;
     }
 };
-void 
+void preorde
 
 
 int main(){
