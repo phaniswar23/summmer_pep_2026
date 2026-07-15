@@ -5,7 +5,7 @@ class TreeNode
     int data;
     TreeNode* left;
     TreeNode* right;
-    Node(int val)
+    TreeNode(int val)
     {
         data = data;
         left = nullptr;
