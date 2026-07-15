@@ -15,7 +15,7 @@ class TreeNode
 void preorder(TreeNode* root)
 {
     //base case
-    if(root == NULL) 
+    if(root == NULL) return
 }
 int main(){
     
