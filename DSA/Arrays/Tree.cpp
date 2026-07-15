@@ -4,7 +4,7 @@ class TreeNode
 {
     int data;
     TreeNode* left;
-    Node* right;
+    TreeNode* right;
     Node(int val)
     {
         data = data;
