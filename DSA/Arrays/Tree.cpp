@@ -20,6 +20,7 @@ void preorder(TreeNode* root)
     preorder(root->left);
     preorder(root->right);
 }
+
 int main(){
     
     return 0;
