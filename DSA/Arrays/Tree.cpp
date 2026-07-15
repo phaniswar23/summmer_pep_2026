@@ -8,6 +8,7 @@ class Node
     Node* left;
     Node* right;
     Node(int val)
+    
 }
 int main(){
     
