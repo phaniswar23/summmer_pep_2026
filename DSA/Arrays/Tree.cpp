@@ -64,7 +64,7 @@ void levelOrder(TreeNode* root)
 
     queue<TreeNode*>q;
     q.push(root);
-    q.push(root);
+    q.push(NULL);
 }
 int main()
 {
