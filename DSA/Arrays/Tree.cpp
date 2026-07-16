@@ -40,6 +40,7 @@ void postorder(TreeNode *root)
     postorder(root->right);
     cout << root->data << endl;
 }
+
 int main()
 {
     TreeNode* root = new TreeNode(1);
