@@ -55,6 +55,6 @@ int main()
     root->left->left = new TreeNode(4);
     root->left->right = new TreeNode(5);
 
-    countNodes(root);
+   cout << countNodes(root);
     return 0;
 }
