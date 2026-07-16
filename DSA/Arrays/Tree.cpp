@@ -60,7 +60,7 @@ int leafNodes(TreeNode *root)
 }
 void levelOrder(TreeNode* root)
 {
-    if(root == NULL) return 0;
+    if(root == NULL) return;
 
     queue<TreeNode*>q;
 }
