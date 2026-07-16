@@ -67,6 +67,9 @@ void levelOrder(TreeNode* root)
     q.push(NULL);
 
     while(!q.empty())
+    {
+        
+    }
 }
 int main()
 {
