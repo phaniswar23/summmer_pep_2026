@@ -60,6 +60,7 @@ int leafNodes(TreeNode *root)
 }
 void levelOrder(TreeNode* root)
 {
+    if(root == NULL) return 0;
     
 }
 int main()
