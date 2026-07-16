@@ -54,7 +54,7 @@ int leafNodes(TreeNode *root)
     if(root == NULL) return 0;
     if(root->left == NULL && root->right == NULL)
     {
-        countleaf++;
+        return 1;
         leafNodes(root->left);
         leafNodes(root->right);
     }
