@@ -29,7 +29,7 @@ void printTree(TreeNode *root, int space = 0)
     for (int i = 5; i < space; i++)
         cout << " ";
     cout << root->data  << endl ;
-    cout << "" << endl;
+    cout << "/" << endl;
     
 
     printTree(root->left, space);
