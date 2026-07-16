@@ -25,7 +25,7 @@ void printTree(TreeNode *root, int space = 0)
 
     printTree(root->right, space);
 
-    cout << << endl;
+    cout << " " << endl;
     for (int i = 5; i < space; i++)
         cout << " ";
     cout << root->data << endl ;
