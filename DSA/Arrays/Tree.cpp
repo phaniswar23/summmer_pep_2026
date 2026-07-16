@@ -58,7 +58,7 @@ int leafNodes(TreeNode *root)
         leafNodes(root->left);
         leafNodes(root->right);
     }
-    return count
+    return countleaf;
 }
 int main()
 {
