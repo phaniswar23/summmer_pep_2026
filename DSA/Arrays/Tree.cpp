@@ -57,8 +57,7 @@ int leafNodes(TreeNode *root)
         return 1;
         
     }
-    return leafNodes(root->left);
-        leafNodes(root->right);;
+    return leafNodes(root->left) + leafNodes(root->right);;
 }
 int main()
 {
