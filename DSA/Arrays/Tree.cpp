@@ -73,7 +73,7 @@ void levelOrder(TreeNode* root)
 
         if(frontNode != NULL)
         {
-            cout << front << endl;
+            cout << frontNode-> << endl;
             
         }
     }
