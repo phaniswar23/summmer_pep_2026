@@ -43,6 +43,6 @@ void postorder(TreeNode *root)
 int main()
 {
     TreeNode* root = new TreeNode(1);
-    
+    root
     return 0;
 }
