@@ -126,7 +126,7 @@ int main()
 
     root->right->right->left = new TreeNode(25);
 
-    
+    printTree(root);
     cout << "Preorder : ";
     preorder(root);
 
