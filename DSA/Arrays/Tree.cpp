@@ -8,9 +8,7 @@ public:
     TreeNode *right;
     TreeNode(int val)
     {
-        data = val;
-        left = nullptr;
-        right = nullptr;
+        
     }
 };
 void preorder(TreeNode *root)
