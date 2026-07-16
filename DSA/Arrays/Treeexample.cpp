@@ -1,92 +1,136 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
-// Node structure for tree
-class Node {
+class TreeNode
+{
 public:
     int data;
-    vector<Node*> children;
+    TreeNode *left;
+    TreeNode *right;
 
-    Node(int x) {
-        data = x;
+    TreeNode(int val)
+    {
+        data = val;
+        left = NULL;
+        right = NULL;
     }
 };
 
-// Function to add a child to a node
-void addChild(Node* parent, Node* child) {
-    parent->children.push_back(child);
-}
-
-// Function to print parents of each node
-void printParents(Node* node, Node* parent) {
-    if (parent == nullptr)
-        cout << node->data << " -> NULL" << endl;
-    else
-        cout << node->data << " -> " << parent->data << endl;
-
-    for (auto child : node->children)
-        printParents(child, node);
-}
-
-// Function to print children of each node
-void printChildren(Node* node) {
-    cout << node->data << " -> ";
-    for (auto child : node->children)
-        cout << child->data << " ";
-    cout << endl;
-
-    for (auto child : node->children)
-        printChildren(child);
-}
-
-// Function to print leaf nodes
-void printLeafNodes(Node* node) {
-    if (node->children.empty()) {
-        cout << node->data << " ";
+// Preorder
+void preorder(TreeNode *root)
+{
+    if (root == NULL)
         return;
-    }
-    for (auto child : node->children)
-        printLeafNodes(child);
+
+    cout << root->data << " ";
+    preorder(root->left);
+    preorder(root->right);
 }
 
-// Function to print degrees of each node 
-void printDegrees(Node* node, Node* parent) {
-    int degree = node->children.size();
-    if (parent != nullptr)  
-        degree++;
-    cout << node->data << " -> " << degree << endl;
+// Inorder
+void inorder(TreeNode *root)
+{
+    if (root == NULL)
+        return;
 
-    for (auto child : node->children)
-        printDegrees(child, node);
+    inorder(root->left);
+    cout << root->data << " ";
+    inorder(root->right);
 }
 
-int main() {
-    // Creating nodes
-    Node* root = new Node(1);
-    Node* n2 = new Node(2);
-    Node* n3 = new Node(3);
-    Node* n4 = new Node(4);
-    Node* n5 = new Node(5);
+// Postorder
+void postorder(TreeNode *root)
+{
+    if (root == NULL)
+        return;
 
-    // Constructing tree
-    addChild(root, n2);
-    addChild(root, n3);
-    addChild(n2, n4);
-    addChild(n2, n5);
+    postorder(root->left);
+    postorder(root->right);
+    cout << root->data << " ";
+}
 
-    cout << "Parents of each node:" << endl;
-    printParents(root, nullptr);
+// Count Total Nodes
+int countNodes(TreeNode *root)
+{
+    if (root == NULL)
+        return 0;
 
-    cout << "Children of each node:" << endl;
-    printChildren(root);
+    return 1 + countNodes(root->left) + countNodes(root->right);
+}
 
-    cout << "Leaf nodes: ";
-    printLeafNodes(root);
-    cout << endl;
+// Count Leaf Nodes
+int countLeafNodes(TreeNode *root)
+{
+    if (root == NULL)
+        return 0;
 
-    cout << "Degrees of nodes:" << endl;
-    printDegrees(root, nullptr);
+    if (root->left == NULL && root->right == NULL)
+        return 1;
+
+    return countLeafNodes(root->left) + countLeafNodes(root->right);
+}
+
+// Height of Tree
+int height(TreeNode *root)
+{
+    if (root == NULL)
+        return -1;   // Height in terms of edges
+
+    return 1 + max(height(root->left), height(root->right));
+}
+
+// Search
+bool search(TreeNode *root, int key)
+{
+    if (root == NULL)
+        return false;
+
+    if (root->data == key)
+        return true;
+
+    return search(root->left, key) || search(root->right, key);
+}
+
+int main()
+{
+    // Creating Tree
+
+    TreeNode *root = new TreeNode(10);
+
+    root->left = new TreeNode(5);
+    root->right = new TreeNode(20);
+
+    root->left->left = new TreeNode(2);
+    root->left->right = new TreeNode(7);
+
+    root->left->right->left = new TreeNode(6);
+
+    root->right->left = new TreeNode(15);
+    root->right->right = new TreeNode(30);
+
+    root->right->right->left = new TreeNode(25);
+
+    cout << "Preorder : ";
+    preorder(root);
+
+    cout << "\nInorder : ";
+    inorder(root);
+
+    cout << "\nPostorder : ";
+    postorder(root);
+
+    cout << "\n\nTotal Nodes : " << countNodes(root);
+
+    cout << "\nLeaf Nodes : " << countLeafNodes(root);
+
+    cout << "\nHeight : " << height(root);
+
+    int key = 25;
+
+    if (search(root, key))
+        cout << "\n" << key << " Found";
+    else
+        cout << "\n" << key << " Not Found";
 
     return 0;
 }
