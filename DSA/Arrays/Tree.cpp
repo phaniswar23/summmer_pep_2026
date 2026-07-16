@@ -3,7 +3,7 @@ using namespace std;
 class TreeNode
 {
 public:
-    int data;   
+    int data;
     TreeNode *left;
     TreeNode *right;
     TreeNode(int val)
@@ -28,33 +28,35 @@ void inorder(TreeNode *root)
     if (root == NULL)
         return;
     inorder(root->left);
-cout << root->data << endl;
-inorder(root->right);
+    cout << root->data << endl;
+    inorder(root->right);
 }
 void postorder(TreeNode *root)
 {
     // base case
     if (root == NULL)
         return;
-     postorder(root->left);
+    postorder(root->left);
     postorder(root->right);
     cout << root->data << endl;
 }
-int countNodes(TreeNode* root) {
-        if(root == NULL) return 0;
-       int left =  countNodes(root->left);
-       int right =  countNodes(root->right);
-       return 1 + left + right;
-    }
+int countNodes(TreeNode *root)
+{
+    if (root == NULL)
+        return 0;
+    int left = countNodes(root->left);
+    int right = countNodes(root->right);
+    return 1 + left + right;
+}
 int main()
 {
-    TreeNode* root = new TreeNode(1);
+    TreeNode *root = new TreeNode(1);
     root->left = new TreeNode(2);
     root->right = new TreeNode(3);
 
     root->left->left = new TreeNode(4);
     root->left->right = new TreeNode(5);
 
-   cout << countNodes(root);
+    cout << countNodes(root);
     return 0;
 }
