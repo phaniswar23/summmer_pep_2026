@@ -80,7 +80,7 @@ void levelOrder(TreeNode* root)
         }
         else if(!q.empty())
         {
-            
+            q.push(NULL)
         }
     }
 }
