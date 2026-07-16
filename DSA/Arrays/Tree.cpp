@@ -68,7 +68,7 @@ void levelOrder(TreeNode* root)
 
     while(!q.empty())
     {
-        TreeNode* frontNode = 
+        TreeNode* frontNode = q.front
     }
 }
 int main()
