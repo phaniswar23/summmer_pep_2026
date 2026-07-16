@@ -78,6 +78,7 @@ void levelOrder(TreeNode* root)
             if(frontNode->left) q.push(frontNode->left);
             if(frontNode->right) q.push(frontNode->right);
         }
+        else if()
     }
 }
 int main()
