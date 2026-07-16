@@ -15,7 +15,22 @@ public:
         right = NULL;
     }
 };
+void printTree(TreeNode *root, int space = 0)
+{
+    if (root == NULL)
+        return;
 
+    space += 5;
+
+    printTree(root->right, space);
+
+    cout << endl;
+    for (int i = 5; i < space; i++)
+        cout << " ";
+    cout << root->data << endl;
+
+    printTree(root->left, space);
+}
 // Preorder
 void preorder(TreeNode *root)
 {
