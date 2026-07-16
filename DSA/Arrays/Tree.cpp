@@ -94,8 +94,8 @@ int main()
     root->left->left = new TreeNode(4);
     root->left->right = new TreeNode(5);
 
-    cout << countNodes(root) << endl;
-    cout << leafNodes(root);
+    // cout << countNodes(root) << endl;
+    // cout << leafNodes(root);
     levelOrder(root);
     return 0;
 }
