@@ -75,7 +75,7 @@ void levelOrder(TreeNode* root)
         {
             cout << frontNode->data << " ";
             
-            if(frontNode->left) 
+            if(frontNode->left) q.push()
         }
     }
 }
