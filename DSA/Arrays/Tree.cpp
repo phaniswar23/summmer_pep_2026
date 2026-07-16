@@ -96,6 +96,6 @@ int main()
 
     cout << countNodes(root) << endl;
     cout << leafNodes(root);
-    levelOrder(root)
+    levelOrder(root);
     return 0;
 }
