@@ -15,6 +15,7 @@ public:
         right = NULL;
     }
 };
+//print tree
 void printTree(TreeNode *root, int space = 0)
 {
     if (root == NULL)
