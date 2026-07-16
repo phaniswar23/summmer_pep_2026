@@ -58,7 +58,8 @@ int leafNodes(TreeNode *root)
     return leafNodes(root->left) + leafNodes(root->right);
     return leafNodes(root->left) + leafNodes(root->right);
 }
-void levelOrder(TreeNode* )
+void levelOrder(TreeNode* root)
+
 int main()
 {
     TreeNode *root = new TreeNode(1);
