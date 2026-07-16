@@ -42,6 +42,6 @@ void postorder(TreeNode *root)
 }
 int main()
 {
-    Node* root = 
+    Node* root = n
     return 0;
 }
