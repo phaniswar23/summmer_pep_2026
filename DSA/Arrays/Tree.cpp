@@ -70,6 +70,6 @@ int main()
     root->left->right = new TreeNode(5);
 
     cout << countNodes(root);
-    cout << countNodes(root);
+    cout << leafNodes(root);
     return 0;
 }
