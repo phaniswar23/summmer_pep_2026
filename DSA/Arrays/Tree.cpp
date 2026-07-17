@@ -12,7 +12,7 @@ public:
         data = val;
         left = nullptr;
         
-        
+        right 
     }
 };
 void preorder(TreeNode *root)
