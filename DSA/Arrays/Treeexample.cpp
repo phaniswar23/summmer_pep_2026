@@ -129,7 +129,7 @@ int main()
     printTree(root);
     
     cout << "Preorder : ";
-    o
+    off_t
 
     cout << "\nInorder : ";
     inorder(root);
