@@ -48,7 +48,7 @@ int countNodes(TreeNode *root)
         return 0;
     int left = countNodes(root->left);
     int right = countNodes(root->right);
-    return 1 + left + right;
+    
     
 }
 int leafNodes(TreeNode *root)
