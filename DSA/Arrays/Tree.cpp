@@ -57,6 +57,7 @@ int leafNodes(TreeNode *root)
     if(root->left == NULL && root->right == NULL)
     {
         
+        
     }
     return leafNodes(root->left) + leafNodes(root->right);
     return leafNodes(root->left) + leafNodes(root->right);
