@@ -130,7 +130,7 @@ int main()
     
     cout << "Preorder : ";
     
-    
+    preorder
     cout << "\nInorder : ";
     inorder(root);
 
