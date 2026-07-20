@@ -28,7 +28,7 @@ void inorder(TreeNode *root)
 {
     // base case
     if (root == NULL)
-        return
+        return;
     inorder(root->left);
     cout << root->data << endl;
     inorder(root->right);
