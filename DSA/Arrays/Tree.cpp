@@ -26,7 +26,7 @@ void preorder(TreeNode *root)
 }
 void inorder(TreeNode *root)
 {
-    
+    //base case
     if (root == NULL)
         return;
     inorder(root->left);
