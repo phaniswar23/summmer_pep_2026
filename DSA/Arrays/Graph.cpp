@@ -24,7 +24,7 @@ int main(){
     for(auto i : adjList)
     {
         cout << i.first << "->" << endl;
-        for(auto j : adjList)
+        for(auto j : i.second)
         {
             cout << 
         }
