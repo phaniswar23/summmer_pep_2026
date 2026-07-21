@@ -20,7 +20,6 @@ int main(){
         adjList[v].push_back(u); //Write this graph is undirected
     }
     cout << "Adjacency List" << endl;
-    
     for(auto i : adjList)
     {
         cout << i.first << "->";
