@@ -3,6 +3,6 @@ using namespace std;
 
 int main(){
     int n;//no of vertices;
-    int m
+    int m;//
     return 0;
 }
