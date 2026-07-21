@@ -26,7 +26,7 @@ int main(){
         cout << i.first << "->" << endl;
         for(auto j : adjList)
         {
-            
+            cout << 
         }
         
     }
