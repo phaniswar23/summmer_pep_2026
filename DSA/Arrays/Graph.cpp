@@ -16,7 +16,7 @@ int main(){
     {
         int u, v;
         cin >> u >> v;
-        ajList[u].push_back(v)
+        ajList[u].push_back(v);
     }
     
     return 0;
