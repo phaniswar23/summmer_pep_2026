@@ -6,6 +6,6 @@ int main(){
     int m;//no of edges
 
     cout<< "Enter the number of vertices: " << " ";
-    cin 
+    cin >> n;
     return 0;
 }
