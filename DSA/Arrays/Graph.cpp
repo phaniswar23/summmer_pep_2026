@@ -10,6 +10,6 @@ int main(){
     cout<< "Enter the number of edges: " << " ";
     cin >> m;
 
-    unordere
+    un
     return 0;
 }
