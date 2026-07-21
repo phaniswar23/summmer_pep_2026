@@ -7,7 +7,7 @@ int main(){
 
     cout<< "Enter the number of vertices: " << " ";
     cin >> n;
-    cout<< "Enter the number of vertices: " << " ";
+    cout<< "Enter the number of edges: " << " ";
     cin >> n;
     return 0;
 }
