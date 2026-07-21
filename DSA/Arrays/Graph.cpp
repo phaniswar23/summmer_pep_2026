@@ -14,7 +14,8 @@ int main(){
     unordered_map<int, list<int>> ajList;
     for (int i = 0; i < m; i++)
     {
-        int u
+        int u, v;
+        cin
     }
     
     return 0;
