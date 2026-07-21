@@ -11,7 +11,7 @@ public:
     {
         data = val;
         left = nullptr;
-        right = nullptr;
+        right =;
     }
 };
 void preorder(TreeNode *root)
