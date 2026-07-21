@@ -16,7 +16,7 @@ int main(){
     {
         int u, v;
         cin >> u >> v;
-        
+        aj
     }
     
     return 0;
