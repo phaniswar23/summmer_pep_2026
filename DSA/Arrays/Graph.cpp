@@ -15,7 +15,7 @@ int main(){
     for (int i = 0; i < m; i++)
     {
         int u, v;
-        cin >> 
+        cin >> u >> v;
     }
     
     return 0;
