@@ -12,7 +12,7 @@ int main(){
     cin >> m;
 
     unordered_map<int, list<int>> ajList;
-    for (int i = 0; i < count; i++)
+    for (int i = 0; i < m; i++)
     {
         /* code */
     }
