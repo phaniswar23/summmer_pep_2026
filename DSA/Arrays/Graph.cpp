@@ -24,7 +24,11 @@ int main(){
     for(auto i : adjList)
     {
         cout << i.first << "->" << endl;
-        for
+        for (size_t i = 0; i < count; i++)
+        {
+            /* code */
+        }
+        
         
     }
     return 0;
