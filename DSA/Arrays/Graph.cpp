@@ -19,7 +19,7 @@ int main(){
         adjList[u].push_back(v);
         adjList[v].push_back(u); //Write this graph is undirected
     }
-    cout << "Adja" << endl;
+    cout << "Adjacency List" << endl;
     
     return 0;
 }
