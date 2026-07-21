@@ -10,6 +10,6 @@ int main(){
     cout<< "Enter the number of edges: " << " ";
     cin >> m;
 
-    unordered_map
+    unordere
     return 0;
 }
