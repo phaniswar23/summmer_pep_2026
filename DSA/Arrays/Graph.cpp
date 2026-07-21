@@ -11,7 +11,7 @@ int main(){
     cout<< "Enter the number of edges: " << " ";
     cin >> m;
 
-    unordered_map<int, list<int>> ajList;
+    unordered_map<int, list<int>> adjList;
     for (int i = 0; i < m; i++)
     {
         int u, v;
