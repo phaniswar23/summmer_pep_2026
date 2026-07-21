@@ -5,6 +5,6 @@ int main(){
     int n;//no of vertices;
     int m;//no of edges
 
-    cout<< "Enter the number of vertices: "
+    cout<< "Enter the number of vertices: " << " "
     return 0;
 }
