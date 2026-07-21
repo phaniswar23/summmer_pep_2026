@@ -9,5 +9,7 @@ int main(){
     cin >> n;
     cout<< "Enter the number of edges: " << " ";
     cin >> m;
+
+    
     return 0;
 }
