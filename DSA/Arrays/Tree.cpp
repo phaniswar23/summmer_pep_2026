@@ -11,7 +11,6 @@ public:
     {
         data = val;
         left = nullptr;
-        
         right = nullptr;
     }
 };
