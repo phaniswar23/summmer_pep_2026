@@ -12,5 +12,10 @@ int main(){
     cin >> m;
 
     unordered_map<int, list<int>> ajList;
+    for (size_t i = 0; i < count; i++)
+    {
+        /* code */
+    }
+    
     return 0;
 }
