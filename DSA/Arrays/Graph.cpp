@@ -22,5 +22,8 @@ int main(){
     cout << "Adjacency List" << endl;
     
     for(auto i : adjList)
+    {
+        
+    }
     return 0;
 }
