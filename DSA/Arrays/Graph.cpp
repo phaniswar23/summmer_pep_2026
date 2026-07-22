@@ -23,7 +23,7 @@ int main(){
     for(auto i : adjList)
     {
         cout << i.first << "->";
-        for(auto j : i.second)
+        for(
         {
             cout << j << " ";
         }
