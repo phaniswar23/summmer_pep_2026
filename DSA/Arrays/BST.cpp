@@ -6,6 +6,8 @@ public:
         int originalColor = image[sr][sc];
 
         if(originalColor == color) return image;
+
+        
     }
 };
 int main(){
