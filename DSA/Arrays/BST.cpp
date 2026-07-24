@@ -2,12 +2,7 @@
 using namespace std;
 
 int main(){
-    cout << "#include<stdio.h>
-    
-    int main(){
-        
-        return 0;
-    }" << endl;
+    cout << "Phani" << endl;
     
     
     return 0;
