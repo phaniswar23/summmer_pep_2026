@@ -14,6 +14,9 @@ public:
         dfs(r-1,c,image,originalColor,newColor);
         //bottom
         dfs(r+1,c,image,originalColor,newColor);
+        //left
+        dfs(r-1,c,image,originalColor,newColor);
+
 
 
     }
