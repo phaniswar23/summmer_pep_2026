@@ -4,11 +4,13 @@ class Solution {
 public:
     void dfs(int r,int c,vector<vector<int>>& image,int originalColor,int newColor)
     {
-        int n = image.size();
-        int m = image[0].size();
+        if(r < 0 || r >= n || c < 0 || c >= m)
+        return;
 
-        if(r < 0 || r >= n - 1 || c < 0 || c >= m - 1) return;
-        image[r][c] = newColor;
+    if(image[r][c] != originalColor)
+        return;
+
+      image[r][c] = newColor;
 
         //top
         dfs(r-1,c,image,originalColor,newColor);
