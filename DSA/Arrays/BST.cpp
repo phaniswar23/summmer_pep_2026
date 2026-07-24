@@ -29,6 +29,8 @@ public:
 
         //dfs
         dfs(sr,sc,image,originalColor,color);
+
+        return image
         
     }
 };
