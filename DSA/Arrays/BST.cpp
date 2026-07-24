@@ -2,7 +2,7 @@
 using namespace std;
 class Solution {
 public:
-    void dfs(int r,int c,vector<vector<int>>& image,)
+    void dfs(int r,int c,vector<vector<int>>& image,int )
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int originalColor = image[sr][sc];
 
