@@ -5,7 +5,7 @@ public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int originalColor = image[sr][sc];
 
-        if(orig)
+        if(originalColor)
     }
 };
 int main(){
