@@ -5,7 +5,7 @@ public:
     void dfs(int r,int c,vector<vector<int>>& image,int originalColor,int newColor)
     {
         int n = image.size();
-        int m = image[0]
+        int m = image[0].size()
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int originalColor = image[sr][sc];
