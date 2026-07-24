@@ -28,6 +28,8 @@ public:
         if(originalColor == color) return image;
 
         //dfs
+        dfs(r-1,c,image,originalColor,newColor);
+        
     }
 };
 int main(){
