@@ -12,7 +12,6 @@ public:
 
         //top
         dfs(r-1,c,image,originalColor,newColor);
-        dfs(r-1,c,image,originalColor,newColor);
         //bottom
 
     }
