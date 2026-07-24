@@ -13,6 +13,8 @@ public:
         //top
         dfs(r-1,c,image,originalColor,newColor);
         //bottom
+        dfs(r-1,c,image,originalColor,newColor);
+
 
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
