@@ -4,6 +4,8 @@ class Solution {
 public:
     void dfs(int r,int c,vector<vector<int>>& image,int originalColor,int newColor)
     {
+         int n = image.size();
+       int m = image[0].size();
         if(r < 0 || r >= n || c < 0 || c >= m)
         return;
 
