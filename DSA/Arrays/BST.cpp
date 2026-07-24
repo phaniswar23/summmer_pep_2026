@@ -2,7 +2,12 @@
 using namespace std;
 
 int main(){
-    cout << "" << endl;
+    cout << "#include<stdio.h>
+    
+    int main(){
+        
+        return 0;
+    }" << endl;
     
     
     return 0;
