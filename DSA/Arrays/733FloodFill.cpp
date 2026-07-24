@@ -10,7 +10,7 @@ public:
         if (r < 0 || r >= n || c < 0 || c >= m)
             return;
 
-        if (image[r][c] != originalColor) return ;
+        if (image[r][c] != originalColor) return;
 
         image[r][c] = newColor;
 
