@@ -8,7 +8,10 @@ public:
         int m = image[0].size();
 
         if(r < 0 || r >= n - 1 || c < 0 || c >= m - 1) return;
-        image[r][c] = newColor
+        image[r][c] = newColor;
+
+        //top
+        
     }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int originalColor = image[sr][sc];
