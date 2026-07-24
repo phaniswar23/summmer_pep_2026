@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    cout << "Phaniswar" << endl;
+    cout << "Phaniswa" << endl;
     
     
     return 0;
