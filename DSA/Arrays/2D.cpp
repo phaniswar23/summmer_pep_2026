@@ -125,4 +125,10 @@ int main()
     spiral(arr2, 4, 4);
     return 0;
 }
-cpp
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+    return 0;
+}
