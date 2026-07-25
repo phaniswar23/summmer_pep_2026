@@ -47,6 +47,8 @@ void maxprint(int arr[3][3])
         }
     }
     cout << "Max SUM is : " << maxi << " AT ROW INDEX" << " " << index << endl;
+    cout << "Max SUM is : " << maxi << " AT ROW INDEX" << " " << index << endl;
+    cout << "Max SUM is : " << maxi << " AT ROW INDEX" << " " << index << endl;
 }
 
 void shape(int arr[][4])
