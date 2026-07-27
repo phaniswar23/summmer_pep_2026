@@ -127,4 +127,4 @@ int main()
     spiral(arr2, 4, 4);
     return 0;
 }
-__cpp_aggregate_nsdmi
+cpp
