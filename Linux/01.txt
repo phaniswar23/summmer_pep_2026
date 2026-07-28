@@ -10,3 +10,5 @@ Char 8 -> 10 -> the other's right
 
 permission        value
 r(read)            4
+r(read)            4
+r(read)            4
