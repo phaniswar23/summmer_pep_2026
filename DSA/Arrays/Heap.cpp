@@ -12,6 +12,9 @@ class MaxHeap
             int parent = (index - 1) / 2;
 
             if(heap[index] > heap[parent])
+            {
+                
+            }
         }
     }
 }
