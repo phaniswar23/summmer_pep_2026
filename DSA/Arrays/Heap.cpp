@@ -11,7 +11,7 @@ class MaxHeap
         {
             int parent = (index - 1) / 2;
 
-            if()
+            if(heap)
         }
     }
 }
