@@ -4,7 +4,8 @@ class MaxHeap
 {
     public:
     vector<int> heap;
-    
+
+    void bubbleup()
 }
 int main(){
     
