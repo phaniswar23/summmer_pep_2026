@@ -3,7 +3,8 @@ using namespace std;
 class MaxHeap
 {
     public:
-    vector<int> 
+    vector<int> heap;
+    
 }
 int main(){
     
