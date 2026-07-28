@@ -16,6 +16,10 @@ class MaxHeap
                 swap(heap[index],heap[parent]);
                 index = parent;
             }
+            else
+            {
+                
+            }
         }
     }
 }
