@@ -14,6 +14,7 @@ class MaxHeap
             if(heap[index] > heap[parent])
             {
                 swap(heap[index],heap[parent]);
+                index = parent;
             }
         }
     }
