@@ -6,3 +6,4 @@ Char 5 -> 7 -> the group's right
 Char 8 -> 10 -> the other's right
 
 
+//Change permission
