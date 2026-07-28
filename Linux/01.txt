@@ -7,3 +7,5 @@ Char 8 -> 10 -> the other's right
 
 
 //Change permission
+
+permission        value
