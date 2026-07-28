@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
-class MaxHea
+class MaxHeap
+{
+    
+}
 int main(){
     
     return 0;
