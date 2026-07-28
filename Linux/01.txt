@@ -3,4 +3,4 @@
 Char 1 -> the type - means normal file ,d means directory
 Char 2 -> 4 -> the owner's right
 Char 5 -> 7 -> the owner's right
-Char 8 -> 4 -> the owner's right
+Char 8 -> 10 -> the owner's right
