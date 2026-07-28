@@ -9,6 +9,7 @@ class MaxHeap
     {
         while(index > 0)
         {
+            int parent = (index - 1) / 2;
             
         }
     }
