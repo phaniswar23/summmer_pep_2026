@@ -7,7 +7,7 @@ class MaxHeap
 
     void bubbleup(int index)
     {
-        
+        while(index > 0)
     }
 }
 int main(){
