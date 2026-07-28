@@ -22,7 +22,7 @@ class MaxHeap
             }
         }
     }
-}
+};
 int main(){
     
     return 0;
