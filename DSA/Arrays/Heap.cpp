@@ -5,7 +5,10 @@ class MaxHeap
     public:
     vector<int> heap;
 
-    void bubbleup()
+    void bubbleup(int index)
+    {
+        
+    }
 }
 int main(){
     
