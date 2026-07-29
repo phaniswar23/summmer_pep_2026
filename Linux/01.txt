@@ -16,4 +16,4 @@ x(excute)          1
 
 
 symbol          meaning
--eq             
+-eq             qual to
