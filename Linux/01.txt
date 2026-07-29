@@ -20,3 +20,4 @@ symbol          meaning
 -ne            not equal to
 -gt / ge        greater than / greater than equal to
 -lt / le        less than / less than equal to
+-d 
