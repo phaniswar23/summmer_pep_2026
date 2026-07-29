@@ -17,3 +17,5 @@ x(excute)          1
 
 symbol          meaning
 -eq             equal to
+-eq             equal to
+-eq             equal to
