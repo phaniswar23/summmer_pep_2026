@@ -17,5 +17,5 @@ x(excute)          1
 
 symbol          meaning
 -eq             equal to
--ne            equal to
+-ne            not equal to
 -eq             equal to
