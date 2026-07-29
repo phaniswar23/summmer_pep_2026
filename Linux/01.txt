@@ -19,4 +19,4 @@ symbol          meaning
 -eq             equal to
 -ne            not equal to
 -gt / ge        greater than / greater than equal to
--gt / ge        greater than / greater than equal to
+-lt / ge        greater than / greater than equal to
