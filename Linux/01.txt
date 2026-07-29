@@ -15,4 +15,4 @@ x(excute)          1
 
 
 
-symbol          
+symbol          meaning
