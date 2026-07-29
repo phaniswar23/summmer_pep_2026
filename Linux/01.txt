@@ -21,3 +21,4 @@ symbol          meaning
 -gt / ge        greater than / greater than equal to
 -lt / le        less than / less than equal to
 -d somefolder       foler exits
+-d somefolder       foler exits
