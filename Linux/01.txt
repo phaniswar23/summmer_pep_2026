@@ -13,5 +13,3 @@ r(read)            4
 w(write)           2
 x(excute)          1
 
-
-cpp
